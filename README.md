@@ -7,7 +7,6 @@
 - 🔭 I'm currently working on **SanderScan** — a LAN & Port Scanner for PC and Termux
 - 🌱 I'm currently learning **network security** and **Java**
 - 💬 Ask me about **Termux**, **network tools**, or **OSINT**
-- 📫 How to reach me: **aleksandergrambelik@gmail.com**
 - ⚡ Fun fact: **I once scanned my own router and found out it was running a 2005 web server**
 - 💻 My laptop is currently having a fan crisis. So I code on a phone now. 🗿
 
