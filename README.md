@@ -1,11 +1,6 @@
 # Hi, I'm Aleksander 👋
 
-**Network Security Enthusiast | Termux Power User | Java Developer**
-
-📍 Indonesia
-📧 aleksandergrambelik@gmail.com
-
----
+**Network Security Enthusiast | Termux User | Teknologi User**
 
 ## 🚀 About Me
 
@@ -70,11 +65,7 @@ while (alive) {
         pretendItWasIntentional();
     }
 }
-📊 GitHub Stats
-
-https://github-readme-stats.vercel.app/api?username=aleksandergrambelik-png&show_icons=true&theme=radical
-
-https://github-readme-stats.vercel.app/api/top-langs/?username=aleksandergrambelik-png&layout=compact&theme=radical
+```
 
 ---
 
