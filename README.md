@@ -1,23 +1,25 @@
 # Hi, I'm Aleksander 👋
 
-**Network Security Enthusiast | Termux User | Teknologi User**
+![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
 ## 🚀 About Me
 
-- 🔭 Currently working on **SanderScan** — a LAN & Port Scanner for PC and Termux
-- 🌱 Currently learning **Network Security** and **how to sleep properly**
-- 💬 Ask me about **Termux**, **Network Tools**, or **why my code doesn't work**
-- ⚡ Fun fact: **I code on a phone. My laptop is having a fan crisis.** 🗿
+- 🔭 I'm currently working on **SanderScan** — a LAN & Port Scanner for PC and Termux
+- 🌱 I'm currently learning **network security** and **Java**
+- 💬 Ask me about **Termux**, **network tools**, or **OSINT**
+- 📫 How to reach me: **aleksandergrambelik@gmail.com**
+- ⚡ Fun fact: **I once scanned my own router and found out it was running a 2005 web server**
+- 💻 My laptop is currently having a fan crisis. So I code on a phone now. 🗿
 
----
-
-## 🛰️ Featured Project
+## 🛰️ My Projects
 
 ### [SanderScan](https://github.com/aleksandergrambelik-png/SanderScan)
 
-**LAN & Port Scanner for PC and Termux. Built from a phone, for a phone.**
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20PC-orange)
 
-> "Scan your own network. Don't be a jerk."
+LAN & Port Scanner for PC and Termux. Built from a phone, for a phone.
 
 **Features:**
 - Auto-detect network
@@ -27,7 +29,7 @@
 - OS Detection
 - Export to CSV & JSON
 
----
+[**→ View Repository**](https://github.com/aleksandergrambelik-png/SanderScan)
 
 ## 😈 Dark Humor Corner
 
@@ -49,26 +51,28 @@
 
 > "I'm not lazy. I'm just on energy-saving mode." 🔋
 
-> "My code doesn't fail. It just finds new ways to not work." 🗿
+> "My laptop's fan died. So I code on a phone. It's not a downgrade. It's a lifestyle." 🗿📱
+
+## 📊 GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aleksandergrambelik-png&show_icons=true&theme=dark)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aleksandergrambelik-png&layout=compact&theme=dark)
+
+## 🧰 Tech Stack
+
+![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+## 📫 Connect with Me
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aleksandergrambelik-png)
 
 ---
 
-## 🧘 Life Philosophy
+⭐️ From [aleksandergrambelik-png](https://github.com/aleksandergrambelik-png)
 
-```java
-while (alive) {
-    eat();
-    sleep();
-    code();
-    overthink();
-    if (bugFound) {
-        pretendItWasIntentional();
-    }
-}
-```
+**Made with ❤️ and too much coffee, from a phone.** 📱☕
 
----
-
-Made with ❤️ and too much coffee, from a phone. 📱☕
-
-P.S. If my code breaks, it's not a bug. It's a feature. 🗿🤡
+**P.S. If my code breaks, it's not a bug. It's a feature.** 🗿🤡
