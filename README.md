@@ -30,9 +30,15 @@ LAN & Port Scanner for PC and Termux. Built from a phone, for a phone.
 
 [**→ View Repository**](https://github.com/aleksandergrambelik-png/SanderScan)
 
-### StealthDefense — Access: `stealthdefense`
+### 🛡️ StealthDefense
 
-I added a highlighted entry for "StealthDefense" with the access identifier `stealthdefense`. If you want this to point to a specific repository, organization, or external URL (for example: https://github.com/stealthdefense or a repo under your account), tell me the exact link and I will replace the text with a direct link or badge.
+![version](https://img.shields.io/badge/version-2.6-blue)
+![license](https://img.shields.io/badge/license-GPL--3.0-green)
+![platform](https://img.shields.io/badge/platform-Termux%20%7C%20PC-orange)
+
+Minimalist Honeypot + Anti-Bot + Tarpit defense. Equipped with Clickjack Filter & Barcode Guard (SQLi/XSS).
+
+[→ View Repository](https://github.com/aleksandergrambelik-png/StealthDefense)
 
 ## 😈 Dark Humor Corner
 
