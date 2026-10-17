@@ -7,10 +7,10 @@
 - 🔭 I'm currently working on **SanderScan** — a LAN & Port Scanner for PC and Termux
 - 🌱 I'm currently learning **network security** and **Java**
 - 💬 Ask me about **Termux**, **network tools**, or **OSINT**
-- ⚡ Fun fact: **I once scanned my own router and found out it was running a 2005 web server**
-- 💻 My laptop is currently having a fan crisis. So I code on a phone now. 🗿
+- ⚡ Fun fact: **I once scanned my own router and found it was running a 2005 web server**
+- 💻 My laptop is having a fan crisis, so I code on my phone now. 🗿
 
-## 🛰️ My Projects
+## 🛰️ Featured Projects
 
 ### [SanderScan](https://github.com/aleksandergrambelik-png/SanderScan)
 
@@ -25,10 +25,14 @@ LAN & Port Scanner for PC and Termux. Built from a phone, for a phone.
 - Multi-thread scanning (250 threads)
 - Banner grabbing
 - MAC vendor detection
-- OS Detection
+- OS detection
 - Export to CSV & JSON
 
 [**→ View Repository**](https://github.com/aleksandergrambelik-png/SanderScan)
+
+### StealthDefense — Access: `stealthdefense`
+
+I added a highlighted entry for "StealthDefense" with the access identifier `stealthdefense`. If you want this to point to a specific repository, organization, or external URL (for example: https://github.com/stealthdefense or a repo under your account), tell me the exact link and I will replace the text with a direct link or badge.
 
 ## 😈 Dark Humor Corner
 
@@ -70,24 +74,7 @@ LAN & Port Scanner for PC and Termux. Built from a phone, for a phone.
 
 ---
 
-This project was built with AI. Here's the breakdown:
-
-| Role | Contributor |
-|-------|-------------|
-| 💡 **Idea & Architecture** | Me (human) |
-| ✅ **Boolean Logic Verification** | ![Qwen](https://img.shields.io/badge/Qwen_3.8-6A0DAD?style=flat-square) |
-| 🐛 **Realtime Code Debugging** | ![DeepSeek](https://img.shields.io/badge/DeepSeek_v4.1_Pro-0A66C2?style=flat-square) |
-| 📁 **Repo Structure & README** | ![Copilot](https://img.shields.io/badge/GitHub_Copilot-181717?style=flat-square&logo=github) |
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Made_with-AI_Collaboration-FF6B6B?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/From-Indonesia-red?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Device-Phone_Only-blue?style=for-the-badge" />
-</p>
-
----
-
-**Honesty is number one.** I didn't write every line myself. I used AI as a partner, not a replacement. The idea is mine, the execution was assisted. If you think that's "cheating", that's your problem. I'm proud of what I built. 🗿
+This profile README was created with a bit of AI help. I wrote the ideas and structure; AI assisted with formatting and polishing.
 
 ⭐️ From [aleksandergrambelik-png](https://github.com/aleksandergrambelik-png)
 
