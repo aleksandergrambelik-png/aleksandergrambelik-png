@@ -30,6 +30,22 @@ LAN & Port Scanner for PC and Termux. Built from a phone, for a phone.
 
 [**→ View Repository**](https://github.com/aleksandergrambelik-png/SanderScan)
 
+### [SanderSuite-Linux](https://github.com/aleksandergrambelik-png/SanderSuite-Linux)
+
+![Version](https://img.shields.io/badge/version-1.0-blue)
+![License](https://img.shields.io/badge/license-GPL--3.0-green)
+![Platform](https://img.shields.io/badge/platform-Linux-orange)
+
+All-in-one offensive and defensive security suite for Linux.
+
+**Includes:**
+- Recon and scanning tools
+- Offensive security utilities
+- Defensive hardening workflow
+- Lightweight command-line automation
+
+[**→ View Repository**](https://github.com/aleksandergrambelik-png/SanderSuite-Linux)
+
 ### 🛡️ StealthDefense
 
 ![version](https://img.shields.io/badge/version-2.6-blue)
@@ -44,7 +60,7 @@ Minimalist Honeypot + Anti-Bot + Tarpit defense. Equipped with Clickjack Filter 
 
 > "My code doesn't have bugs. It has random features." 🤡
 
-> "I don't always test my code. But when I do, I do it in production." 🚀
+> "I don't always test my code. But when I do, I do it in production." ����
 
 > "The scanner said 'No hosts responded'. Same, scanner. Same." 🗿
 
