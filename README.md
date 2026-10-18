@@ -2,6 +2,21 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
+## Java Manifesto & Challenge
+
+People say Java is heavy, bloated, and full of garbage libraries. They say modern security tools must be written in Rust or Go.
+
+I'm here to say otherwise. I built my entire suite—network scanner, firewall manager, bot detection—under 50KB, running on a potato phone in Termux. Pure Java. No bloatware.
+
+Back in the 2000s, Java was the absolute king. Now everyone wants to throw it away. I'm here to remind you what Java can still do in the modern era when you actually know how to use it.
+
+I used Qwen 3.7/3.8 and DeepSeek v4.1 Pro as my AI-assisted syntax partners — I wrote the logic, they helped polish and speed up iteration while I debugged 500+ lines on a 5-inch screen.
+
+So, here is my challenge to you:
+If you think your 'modern language' (or your generic AI prompt) can do better, rewrite my code in your language, keep the features, and make it under 50KB.
+
+I'll wait. 🃏
+
 I build sharp, fast network tools — often from my phone. I don't apologize for noisy scans.
 
 ## What I do
