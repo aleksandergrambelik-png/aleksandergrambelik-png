@@ -1,105 +1,85 @@
-# Hi, I'm Aleksander 👋
+# ALEKSANDER — Offensive + Defensive Security ⚡️
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
-## 🚀 About Me
+I build sharp, fast network tools — often from my phone. I don't apologize for noisy scans.
 
-- 🔭 I'm currently working on **SanderScan** — a LAN & Port Scanner for PC and Termux
-- 🌱 I'm currently learning **network security** and **Java**
-- 💬 Ask me about **Termux**, **network tools**, or **OSINT**
-- ⚡ Fun fact: **I once scanned my own router and found it was running a 2005 web server**
-- 💻 My laptop is having a fan crisis, so I code on my phone now. 🗿
+## What I do
 
-## 🛰️ Featured Projects
+- 🔭 I build powerful network utilities: scanners, recon suites, and lightweight defensive tools.
+- 🌱 Learning: deepening my skills in network security and Java.
+- 💬 Ask me about Termux, fast port scanning, or OSINT workflows.
+- ⚡ Pro tip: I once scanned my own router — it ran a 2005 web server. I laughed, then patched it.
 
-### [SanderScan](https://github.com/aleksandergrambelik-png/SanderScan)
+---
 
+## Featured Projects — Ready to Run
+
+### SanderSuite-Linux — All-in-one Security Suite
+![version](https://img.shields.io/badge/version-1.0-blue)
+![license](https://img.shields.io/badge/license-GPL--3.0-green)
+![platform](https://img.shields.io/badge/platform-Linux-orange)
+
+An aggressive but responsible toolbox for offensive and defensive ops on Linux.
+- Recon & high-speed scanning
+- Compact offensive utilities (scripts & binaries)
+- Defensive hardening steps and automation
+- Easy install & CLI-first workflows
+
+[→ Explore SanderSuite-Linux](https://github.com/aleksandergrambelik-png/SanderSuite-Linux)
+
+---
+
+### SanderScan — LAN & Port Scanner (Phone-friendly)
 ![Version](https://img.shields.io/badge/version-1.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20PC-orange)
 
-LAN & Port Scanner for PC and Termux. Built from a phone, for a phone.
-
-**Features:**
-- Auto-detect network
-- Multi-thread scanning (250 threads)
-- Banner grabbing
-- MAC vendor detection
+Fast, threaded scanner built for Termux and PC. Made on a phone, optimized for speed.
+- Auto network discovery
+- 250-thread scanning mode
+- Banner grabbing & MAC vendor lookup
 - OS detection
-- Export to CSV & JSON
+- Export results to CSV/JSON
 
-[**→ View Repository**](https://github.com/aleksandergrambelik-png/SanderScan)
+[→ Explore SanderScan](https://github.com/aleksandergrambelik-png/SanderScan)
 
-### [SanderSuite-Linux](https://github.com/aleksandergrambelik-png/SanderSuite-Linux)
+---
 
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![License](https://img.shields.io/badge/license-GPL--3.0-green)
-![Platform](https://img.shields.io/badge/platform-Linux-orange)
-
-All-in-one offensive and defensive security suite for Linux.
-
-**Includes:**
-- Recon and scanning tools
-- Offensive security utilities
-- Defensive hardening workflow
-- Lightweight command-line automation
-
-[**→ View Repository**](https://github.com/aleksandergrambelik-png/SanderSuite-Linux)
-
-### 🛡️ StealthDefense
-
+### StealthDefense — Minimalist Honeypot & Tarpit
 ![version](https://img.shields.io/badge/version-2.6-blue)
 ![license](https://img.shields.io/badge/license-GPL--3.0-green)
 ![platform](https://img.shields.io/badge/platform-Termux%20%7C%20PC-orange)
 
-Minimalist Honeypot + Anti-Bot + Tarpit defense. Equipped with Clickjack Filter & Barcode Guard (SQLi/XSS).
+Honeypot + Anti-bot + Tarpit defense with built-in filters (Clickjacking, SQLi/XSS/LFI). Zero dependencies.
 
-[→ View Repository](https://github.com/aleksandergrambelik-png/StealthDefense)
+[→ Explore StealthDefense](https://github.com/aleksandergrambelik-png/StealthDefense)
 
-## 😈 Dark Humor Corner
+---
 
-> "My code doesn't have bugs. It has random features." 🤡
+## Philosophy
 
-> "I don't always test my code. But when I do, I do it in production." ����
+I prefer tools that work in the wild: compact, fast, and useful. If it warms my phone, it still gets the job done.
 
-> "The scanner said 'No hosts responded'. Same, scanner. Same." 🗿
-
-> "250 threads make my phone warm. That's not a bug. That's a free hand warmer." 🔥
-
-> "I don't need therapy. I have error logs." 📜
-
-> "My code works. I don't know why. I don't want to know why." 🤔
-
-> "I don't have a 5-year plan. I have a 5-minute plan. It's called 'make it work'." 💀
-
-> "Stack Overflow is my co-pilot. And my therapist." 🧠
-
-> "I'm not lazy. I'm just on energy-saving mode." 🔋
-
-> "My laptop's fan died. So I code on a phone. It's not a downgrade. It's a lifestyle." 🗿📱
-
-## 📊 GitHub Stats
+## GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aleksandergrambelik-png&show_icons=true&theme=dark)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aleksandergrambelik-png&layout=compact&theme=dark)
 
-## 🧰 Tech Stack
+---
+
+## Tech & Tools
 
 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## 📫 Connect with Me
+## Get in touch
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/aleksandergrambelik-png)
+- GitHub: https://github.com/aleksandergrambelik-png
+- Want a demo or collab? Open an issue in any repo or DM me on GitHub.
 
 ---
 
-This profile README was created with a bit of AI help. I wrote the ideas and structure; AI assisted with formatting and polishing.
-
-⭐️ From [aleksandergrambelik-png](https://github.com/aleksandergrambelik-png)
-
-**Made with ❤️ and too much coffee, from a phone.** 📱☕
-
-**P.S. If my code breaks, it's not a bug. It's a feature.** 🗿🤡
+Made on a phone. Made to work. ⚙️
