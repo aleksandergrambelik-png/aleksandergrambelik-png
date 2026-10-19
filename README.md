@@ -76,18 +76,23 @@ Note: IP addresses are partially redacted for privacy and ethical disclosure.
 
 ## Featured Projects — Ready to Run
 
-### SanderSuite — All-in-one Security Suite
+### SanderSuite-Linux — Beacon-Oriented Security Suite
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![license](https://img.shields.io/badge/license-GPL--3.0-green)
 ![platform](https://img.shields.io/badge/platform-Linux-orange)
 
-An aggressive but responsible toolbox for offensive and defensive ops on Linux.
-- Recon & high-speed scanning
-- Compact offensive utilities (scripts & binaries)
-- Defensive hardening steps and automation
-- Easy install & CLI-first workflows
+A compact but ruthless security toolkit for beacon-driven intelligence, exposure mapping, and defensive action on Linux.
 
-[→ Explore SanderSuite](https://github.com/aleksandergrambelik-png/SanderSuite-Linux)
+- Fast beaconing and service discovery
+- Pseudo-AI risk triage for prioritizing exposed targets
+- CVE-oriented exposure mapping under active threat pressure
+- Banner and service fingerprinting
+- Defensive hardening, lockdown guidance, and reporting
+- Built for rapid decision-making in noisy, high-risk environments
+
+SanderSuite is not just a recon tool. It behaves like a beacon engine: it emits signals, captures service intelligence, identifies exposed assets, and ranks the most dangerous targets before action is taken. In a world of constant CVE churn, the real challenge is not detection — it is knowing which signal matters first.
+
+[→ Explore SanderSuite-Linux](https://github.com/aleksandergrambelik-png/SanderSuite-Linux)
 
 ---
 
