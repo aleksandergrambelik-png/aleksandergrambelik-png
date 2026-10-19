@@ -22,26 +22,26 @@ I build sharp, fast network tools — often from my phone. I don't apologize for
 
 ## DragonFly BSD — Architectural Inspiration (reference for my tools)
 
-I often draw architectural inspiration from DragonFly BSD when designing SanderSuite, SanderScan, and StealthDefense. Below is a concise mapping of core DragonFly concepts to the corresponding design [...]
+I often draw architectural inspiration from DragonFly BSD when designing SanderSuite, SanderScan, and StealthDefense. Below is a concise mapping of core DragonFly concepts to the corresponding design.
 
 1. DragonFly BSD = Core Java (SanderSuite)
-   - DragonFly acts as the "engine" that manages system resources. I mirror that role with a compact Core architecture and CLI in Java (ConfigManager, OutputManager). Minimal layers, maximum efficienc[...]
+   - DragonFly acts as the "engine" that manages system resources. I mirror that role with a compact Core architecture and CLI in Java (ConfigManager, OutputManager). Minimal layers, maximum efficiency.
 
 2. HAMMER2 = StealthDefense
-   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robu[...]
+   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust logging even under active attack.
 
 3. HAMMER1 = SanderScan
-   - HAMMER1 is the older, high-performance filesystem—fast and aggressive. SanderScan embraces that spirit with an aggressive scanning mode (250 threads), optimized for speed and direct results. "I[...]
+   - HAMMER1 is the older, high-performance filesystem—fast and aggressive. SanderScan embraces that spirit with aggressive scanning mode, optimized for speed and direct results.
 
 4. LWKT (Lightweight Kernel Threads) = Modular Task System
-   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules (e.g., ReconEngine, BeaconEngine) and a help/module sy[...]
+   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run as independent, lightweight tasks.
 
 (Placed here so visitors can quickly understand the architectural philosophy that influenced SanderSuite, SanderScan, and StealthDefense.)
 
 
 ## 📸 Proof of Concept (Live Test)
 
-Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and bl[...]
+Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and blocked multiple ports.
 
 ### CSV Output (`stealth_log.csv`)
 
@@ -85,12 +85,71 @@ A compact but ruthless security toolkit for beacon-driven intelligence, exposure
 
 - Fast beaconing and service discovery
 - Pseudo-AI risk triage for prioritizing exposed targets
-- CVE-oriented exposure mapping under active threat pressure
+- Exposure mapping under active threat pressure
 - Banner and service fingerprinting
 - Defensive hardening, lockdown guidance, and reporting
 - Built for rapid decision-making in noisy, high-risk environments
 
-SanderSuite is not just a recon tool. It behaves like a beacon engine: it emits signals, captures service intelligence, identifies exposed assets, and ranks the most dangerous targets before action is taken. In a world of constant CVE churn, the real challenge is not detection — it is knowing which signal matters first.
+SanderSuite is not just a recon tool. It behaves like a beacon engine: it emits signals, captures service intelligence, identifies exposed assets, and ranks the most dangerous targets before action is taken. In a world of constant threat churn, the real challenge is not detection — it is knowing which signal matters first.
+
+#### Core Features
+
+##### 1. WAF Engine
+Built-in payload filtering layer that blocks malicious requests before they reach the core logic.
+
+- SQL Injection (SQLi)
+  - UNION-based payloads
+  - classic boolean bypasses
+  - time-based injection patterns
+- XSS
+  - script tags
+  - javascript: payloads
+  - event handlers such as onerror=
+- LFI
+  - traversal attempts such as ../../etc/passwd
+  - Windows path traversal patterns
+- CMD Injection
+  - command chaining via ;, |, &&, $()
+- Sensitive Path Blocking
+  - /.env
+  - /.git/
+  - /wp-config.php
+  - /actuator
+- Java Injection
+  - Runtime.getRuntime()
+  - ProcessBuilder
+  - System.exit
+- Nuclei Scanner Detection
+  - common nuclei user-agent and request patterns
+
+##### 2. Anti-Esoteric Language Filter
+Catches payloads generated from unusual or obfuscated languages often seen in CTF and hostile scanning contexts.
+
+- Brainfuck payload signatures
+- JSFuck payload signatures
+- obfuscated language markers such as fuck, kcuf, feck, and related variations
+
+##### 3. Anti-Scan & Anti-Bot
+Detection layer for noisy scanners and bot activity that behaves aggressively without normal application traffic.
+
+- Anti-port scan tracking
+  - repeated connection attempts across multiple ports from a single source
+- Silent scan detection
+  - scanners that probe without sending meaningful payloads
+- Bot and abnormal behavior detection
+
+##### 4. AI Threat Scoring
+A lightweight scoring engine that turns activity into action.
+
+- Monitor
+  - score 1–29
+  - logged and gently challenged
+- Tarpit
+  - score 30–69
+  - delayed and throttled responses
+- Block
+  - score 70+
+  - permanent blacklist trigger
 
 [→ Explore SanderSuite](https://github.com/aleksandergrambelik-png/SanderSuite)
 
