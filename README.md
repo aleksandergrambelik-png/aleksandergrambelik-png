@@ -20,6 +20,25 @@ I'll wait. 🃏
 I build sharp, fast network tools — often from my phone. I don't apologize for noisy scans.
 
 
+## DragonFly BSD — Architectural Inspiration (reference for my tools)
+
+I often draw architectural inspiration from DragonFly BSD when designing SanderSuite, SanderScan, and StealthDefense. Below is a concise mapping of core DragonFly concepts to the corresponding design choices in my tools:
+
+1. DragonFly BSD = Core Java (SanderSuite)
+   - DragonFly acts as the "engine" that manages system resources. I mirror that role with a compact Core architecture and CLI in Java (ConfigManager, OutputManager). Minimal layers, maximum efficiency.
+
+2. HAMMER2 = StealthDefense
+   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust, consistent logging (CSV/JSON) even under active attack.
+
+3. HAMMER1 = SanderScan
+   - HAMMER1 is the older, high-performance filesystem—fast and aggressive. SanderScan embraces that spirit with an aggressive scanning mode (250 threads), optimized for speed and direct results. "I don't apologize for noisy scans." — fast, uncompromising, effective.
+
+4. LWKT (Lightweight Kernel Threads) = Modular Task System
+   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules (e.g., ReconEngine, BeaconEngine) and a help/module system so features run as independent, lightweight tasks.
+
+(Placed here so visitors can quickly understand the architectural philosophy that influenced SanderSuite, SanderScan, and StealthDefense.)
+
+
 ## 📸 Proof of Concept (Live Test)
 
 Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and blocked multiple ports.
