@@ -76,6 +76,26 @@ Note: IP addresses are partially redacted for privacy and ethical disclosure.
 
 ## Featured Projects — Ready to Run
 
+### 🛡️ SanderMultiVector
+
+> Hybrid Multi-Vector Bug Bounty Arsenal (Java + Perl + C++) for Termux/Linux.
+
+![Java](https://img.shields.io/badge/Java-11+-orange)
+![Perl](https://img.shields.io/badge/Perl-5.0+-blue)
+![C++](https://img.shields.io/badge/C++-11+-purple)
+![License](https://img.shields.io/badge/License-GPL--3.0-green)
+![Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20Windows%20%7C%20macOS-brightgreen)
+
+**Features:**
+- **6 Attack Modes:** SQLi, XSS, RCE, LFI, API Injection, Typo Mapping.
+- **Hybrid Engine:** Java (Orchestrator) + Perl (Obfuscator) + C++ (Fast HTTP).
+- **Double Output:** Real-time Terminal + JSONL Audit Log.
+- **Interactive & CLI Mode:** Colored Menu + Command Line Support.
+- **Cross-Platform:** Termux, Linux, Windows, macOS.
+- **AI-Powered:** Built with Qwen 3.7 Plus & DeepSeek V4.1 Pro.
+
+[→ View Repository](https://github.com/aleksandergrambelik-png/SanderMultiVector)
+
 ### SanderSuite — Beacon-Oriented Security Suite
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![license](https://img.shields.io/badge/license-GPL--3.0-green)
