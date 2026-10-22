@@ -213,12 +213,5 @@ I prefer tools that work in the wild: compact, fast, and useful. If it warms my 
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-## Get in touch
-
-- GitHub: https://github.com/aleksandergrambelik-png
-- Want a demo or collab? Open an issue in any repo or DM me on GitHub.
-
----
-
 Made on a phone. Made to work. ⚙️
 
