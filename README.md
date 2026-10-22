@@ -2,23 +2,16 @@
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
-## Java Manifesto & Challenge
+[![SanderMultiVector](https://github.com/aleksandergrambelik-png/SanderMultiVector/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderMultiVector/actions/workflows/audit.yml)
+[![SanderSuite](https://github.com/aleksandergrambelik-png/SanderSuite/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderSuite/actions/workflows/audit.yml)
+[![SanderScan](https://github.com/aleksandergrambelik-png/SanderScan/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderScan/actions/workflows/audit.yml)
+[![StealthDefense](https://github.com/aleksandergrambelik-png/StealthDefense/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/StealthDefense/actions/workflows/audit.yml)
 
-People say Java is heavy, bloated, and full of garbage libraries. They say modern security tools must be written in Rust or Go.
+## Overview
 
-I'm here to say otherwise. I built my entire suite—network scanner, firewall manager, bot detection—under 50KB, running on a potato phone in Termux. Pure Java. No bloatware.
+I build compact, high-performance network utilities for reconnaissance, hardening, and defensive automation. My work focuses on practical security tooling that runs efficiently in constrained environments and helps teams map exposure before it turns into compromise.
 
-Back in the 2000s, Java was the absolute king. Now everyone wants to throw it away. I'm here to remind you what Java can still do in the modern era when you actually know how to use it.
-
-I used Qwen 3.7/3.8 and DeepSeek v4.1 Pro as my AI-assisted syntax partners — I wrote the logic, they helped polish and speed up iteration while I debugged 500+ lines on a 5-inch screen.
-
-So, here is my challenge to you:
-If you think your 'modern language' (or your generic AI prompt) can do better, rewrite my code in your language, keep the features, and make it under 50KB.
-
-I'll wait. 🃏
-
-I build sharp, fast network tools — often from my phone. I don't apologize for noisy scans.
-
+I often work from a phone, build in Java, and keep the tooling lean enough to be useful in real conditions. The goal is simple: fast signal, practical defense, and systems that remain useful under pressure.
 
 ## DragonFly BSD — Architectural Inspiration (reference for my tools)
 
@@ -28,20 +21,20 @@ I often draw architectural inspiration from DragonFly BSD when designing SanderS
    - DragonFly acts as the "engine" that manages system resources. I mirror that role with a compact Core architecture and CLI in Java (ConfigManager, OutputManager). Minimal layers, maximum efficiency.
 
 2. HAMMER2 = StealthDefense
-   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust logging even under active attack.
+   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust defensive logging.
 
 3. HAMMER1 = SanderScan
    - HAMMER1 is the older, high-performance filesystem—fast and aggressive. SanderScan embraces that spirit with aggressive scanning mode, optimized for speed and direct results.
 
 4. LWKT (Lightweight Kernel Threads) = Modular Task System
-   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run as independent, lightweight tasks.
+   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run as independent, efficient components.
 
 (Placed here so visitors can quickly understand the architectural philosophy that influenced SanderSuite, SanderScan, and StealthDefense.)
 
 
 ## 📸 Proof of Concept (Live Test)
 
-Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and blocked multiple ports.
+Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and logged the interaction.
 
 ### CSV Output (`stealth_log.csv`)
 
@@ -110,7 +103,7 @@ A compact but ruthless security toolkit for beacon-driven intelligence, exposure
 - Defensive hardening, lockdown guidance, and reporting
 - Built for rapid decision-making in noisy, high-risk environments
 
-SanderSuite is not just a recon tool. It behaves like a beacon engine: it emits signals, captures service intelligence, identifies exposed assets, and ranks the most dangerous targets before action is taken. In a world of constant threat churn, the real challenge is not detection — it is knowing which signal matters first.
+SanderSuite is not just a recon tool. It behaves like a beacon engine: it emits signals, captures service intelligence, identifies exposed assets, and ranks the most dangerous targets before action is taken.
 
 #### Core Features
 
@@ -228,3 +221,4 @@ I prefer tools that work in the wild: compact, fast, and useful. If it warms my 
 ---
 
 Made on a phone. Made to work. ⚙️
+
