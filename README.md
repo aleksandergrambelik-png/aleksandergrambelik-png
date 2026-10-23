@@ -34,13 +34,13 @@ Built for CLI-first engineering, battery-aware automation, and tooling that stil
 
 Here are some screenshots from my recent projects:
 
-### SanderUltimate HUD
+### 1.
 <img src="assets/poc_1.jpg" alt="SanderUltimate HUD" width="600">
 
-### SanderMultiVector & Audit
+### 2.
 <img src="assets/poc_2.jpg" alt="SanderMultiVector" width="600">
 
-### SanderSuite & SanderTrap
+### 3.
 <img src="assets/poc_3.jpg" alt="SanderSuite" width="600">
 
 ## DragonFly BSD — Architectural Inspiration (reference for my tools)
