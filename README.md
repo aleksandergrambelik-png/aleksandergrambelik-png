@@ -43,7 +43,7 @@ Here are some screenshots from my recent projects:
 ### 3.
 <img src="assets/poc_3.jpg" alt="SanderSuite" width="600">
 
-## 📸 Latest Screenshots
+## 📸 Testing from a different phone
 
 <img src="assets/poc_new_1.jpg" alt="Screenshot 1" width="600">
 <img src="assets/poc_new_2.jpg" alt="Screenshot 2" width="600">
