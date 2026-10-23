@@ -9,9 +9,26 @@
 
 ## Overview
 
-I build compact, high-performance network utilities for reconnaissance, hardening, and defensive automation. My work focuses on practical security tooling that runs efficiently in constrained environments and helps teams map exposure before it turns into compromise.
+I build compact, high-performance network utilities for reconnaissance, hardening, and defensive automation. My work focuses on practical security tooling that runs efficiently in constrained environments.
 
 I often work from a phone, build in Java, and keep the tooling lean enough to be useful in real conditions. The goal is simple: fast signal, practical defense, and systems that remain useful under pressure.
+
+## 🧪 Device Experiment
+
+This is the actual mobile testbed used for building and stress-testing low-power security tools in real-world conditions.
+
+```json
+{
+  "device": "Snapdragon 625",
+  "cores": "8x A53 @ 2.0GHz (4+4 big.LITTLE)",
+  "cache": "L1: 32KB I/D, L2: 512KB shared",
+  "thermal_limit": "42°C throttle point",
+  "env": "Termux non-root, Android 10, 3GB RAM",
+  "tool_constraints": ["CLI-only", "no-GUI", "battery-aware", "termux-api-hw-access"]
+}
+```
+
+Built for CLI-first engineering, battery-aware automation, and tooling that still performs well when the hardware is constrained.
 
 ## DragonFly BSD — Architectural Inspiration (reference for my tools)
 
@@ -21,20 +38,20 @@ I often draw architectural inspiration from DragonFly BSD when designing SanderS
    - DragonFly acts as the "engine" that manages system resources. I mirror that role with a compact Core architecture and CLI in Java (ConfigManager, OutputManager). Minimal layers, maximum efficiency.
 
 2. HAMMER2 = StealthDefense
-   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust defensive logging.
+   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust log capture.
 
 3. HAMMER1 = SanderScan
    - HAMMER1 is the older, high-performance filesystem—fast and aggressive. SanderScan embraces that spirit with aggressive scanning mode, optimized for speed and direct results.
 
 4. LWKT (Lightweight Kernel Threads) = Modular Task System
-   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run as independent, efficient components.
+   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run as independent, efficient workers.
 
 (Placed here so visitors can quickly understand the architectural philosophy that influenced SanderSuite, SanderScan, and StealthDefense.)
 
 
 ## 📸 Proof of Concept (Live Test)
 
-Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and logged the interaction.
+Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and logged the event.
 
 ### CSV Output (`stealth_log.csv`)
 
