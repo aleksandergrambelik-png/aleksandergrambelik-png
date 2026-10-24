@@ -30,24 +30,6 @@ This is the actual mobile testbed used for building and stress-testing low-power
 
 Built for CLI-first engineering, battery-aware automation, and tooling that still performs well when the hardware is constrained.
 
-## 📸 Project Gallery
-
-Here are some screenshots from my recent projects:
-
-### 1.
-<img src="assets/poc_1.jpg" alt="SanderUltimate HUD" width="600">
-
-### 2.
-<img src="assets/poc_2.jpg" alt="SanderMultiVector" width="600">
-
-### 3.
-<img src="assets/poc_3.jpg" alt="SanderSuite" width="600">
-
-## 📸 Testing from a different phone
-
-<img src="assets/poc_new_1.jpg" alt="Screenshot 1" width="600">
-<img src="assets/poc_new_2.jpg" alt="Screenshot 2" width="600">
-
 ## DragonFly BSD — Architectural Inspiration (reference for my tools)
 
 I often draw architectural inspiration from DragonFly BSD when designing SanderSuite, SanderScan, and StealthDefense. Below is a concise mapping of core DragonFly concepts to the corresponding design.
