@@ -1,4 +1,4 @@
-# ALEKSANDER — Offensive + Defensive Security ⚡️
+# Offensive + Defensive Security ⚡️
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
