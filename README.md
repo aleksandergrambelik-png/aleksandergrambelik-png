@@ -1,5 +1,7 @@
 # Offensive + Defensive Security ⚡️
 
+This is a 2000s Undernet-style lab, proudly stuffed with polyglots — making everything 'more efficient.' With simple tools. Back then we built stuff on Windows XP. Now we're on phones with potato specs 🤣 How efficient can modern interpreters get before the kernel's userland permissions slap you in the face?
+
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
 [![SanderMultiVector](https://github.com/aleksandergrambelik-png/SanderMultiVector/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderMultiVector/actions/workflows/audit.yml)
