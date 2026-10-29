@@ -103,6 +103,9 @@ I prefer tools that work in the wild: compact, fast, and useful. If it warms my 
 
 ---
 
+## Support Development
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/sander_0x04)
+
 ## Tech & Tools
 
 ![Termux](https://img.shields.io/badge/Termux-000000?style=for-the-badge&logo=termux&logoColor=white)
