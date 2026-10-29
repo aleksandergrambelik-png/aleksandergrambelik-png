@@ -5,8 +5,6 @@ This is a 2000s Undernet-style lab, proudly stuffed with polyglots — making ev
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
-[![SanderShield](https://github.com/aleksandergrambelik-png/SanderShield/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderShield/actions/workflows/audit.yml)
-
 ## Overview
 
 I build compact, high-performance network utilities for reconnaissance, hardening, and defensive automation. My work focuses on practical security tooling that runs efficiently in constrained environments.
