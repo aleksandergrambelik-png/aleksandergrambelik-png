@@ -16,21 +16,6 @@ I build compact, high-performance network utilities for reconnaissance, hardenin
 
 I often work from a phone, build in Java, and keep the tooling lean enough to be useful in real conditions. The goal is simple: fast signal, practical defense, and systems that remain useful under pressure.
 
-## 🧪 Device Experiment
-
-This is the actual mobile testbed used for building and stress-testing low-power security tools in real-world conditions.
-
-```json
-{
-  "device": "Snapdragon 625",
-  "cores": "8x A53 @ 2.0GHz (4+4 big.LITTLE)",
-  "cache": "L1: 32KB I/D, L2: 512KB shared",
-  "thermal_limit": "42°C throttle point",
-  "env": "Termux non-root, Android 10, 3GB RAM",
-  "tool_constraints": ["CLI-only", "no-GUI", "battery-aware", "termux-api-hw-access"]
-}
-```
-
 Built for CLI-first engineering, battery-aware automation, and tooling that still performs well when the hardware is constrained.
 
 ## DragonFly BSD — Architectural Inspiration (reference for my tools)
@@ -50,33 +35,6 @@ I often draw architectural inspiration from DragonFly BSD when designing SanderS
    - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run as independently as possible.
 
 (Placed here so visitors can quickly understand the architectural philosophy that influenced SanderSuite, SanderScan, and StealthDefense.)
-
-
-## 📸 Proof of Concept (Live Test)
-
-Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and logged the interaction.
-
-### CSV Output (`stealth_log.csv`)
-
-```csv
-timestamp,event,ip,port,details
-2026-10-18 21:17:39,CONN,10.52.***.***,8080,"New connection"
-2026-10-18 21:17:39,BOT,10.52.***.***,8080,"Bot signature detected"
-2026-10-18 21:17:39,TARPIT,10.52.***.***,8080,"Tarpit engaged"
-2026-10-18 21:22:27,CONN,10.52.***.***,3306,"New connection"
-2026-10-18 21:22:27,TARPIT,10.52.***.***,3306,"Tarpit engaged"
-```
-
-### JSON Output (stealth_log.json)
-
-```json
-[
-  {"timestamp":"2026-10-18 21:17:39","event":"BOT","ip":"10.52.***.***","port":8080,"details":"Bot signature detected"},
-  {"timestamp":"2026-10-18 21:17:39","event":"TARPIT","ip":"10.52.***.***","port":8080,"details":"Tarpit engaged"}
-]
-```
-
-Note: IP addresses are partially redacted for privacy and ethical disclosure.
 
 ## What I do
 
@@ -188,32 +146,7 @@ A lightweight scoring engine that turns activity into action.
 
 ---
 
-### SanderScan — LAN & Port Scanner (Phone-friendly)
-![Version](https://img.shields.io/badge/version-1.0-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Platform](https://img.shields.io/badge/platform-Termux%20%7C%20PC-orange)
 
-Fast, threaded scanner built for Termux and PC. Made on a phone, optimized for speed.
-- Auto network discovery
-- 250-thread scanning mode
-- Banner grabbing & MAC vendor lookup
-- OS detection
-- Export results to CSV/JSON
-
-[→ Explore SanderScan](https://github.com/aleksandergrambelik-png/SanderScan)
-
----
-
-### StealthDefense — Minimalist Honeypot & Tarpit
-![version](https://img.shields.io/badge/version-2.6-blue)
-![license](https://img.shields.io/badge/license-GPL--3.0-green)
-![platform](https://img.shields.io/badge/platform-Termux%20%7C%20PC-orange)
-
-Honeypot + Anti-bot + Tarpit defense with built-in filters (Clickjacking, SQLi/XSS/LFI). Zero dependencies.
-
-[→ Explore StealthDefense](https://github.com/aleksandergrambelik-png/StealthDefense)
-
----
 
 ### SanderShield — Defensive Security Layer
 ![version](https://img.shields.io/badge/version-1.0-blue)
