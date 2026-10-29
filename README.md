@@ -57,24 +57,19 @@ Minimal but effective defensive shield for hostile environments: request filteri
 - Built to complement recon and honeypot workflows
 - Designed for constrained devices and production-style triage
 
-<p align="center">
-  <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-CVE%20Check.jpg?raw=1" width="420" alt="CVE Check" />
-  <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-GPS-Sensor.jpg?raw=1" width="420" alt="GPS Sensor" />
-</p>
+## Screenshots
 
-<p align="center">
-  <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-Privacy.jpg?raw=1" width="420" alt="Privacy" />
-  <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-command-help.jpg?raw=1" width="420" alt="Command Help" />
-</p>
+| Main Terminal | Command Help |
+| :---: | :---: |
+| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-command-help.jpg?raw=1" width="400" alt="Main Terminal"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-ping.jpg?raw=1" width="400" alt="Command Help"> |
 
-<p align="center">
-  <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-ping.jpg?raw=1" width="420" alt="Ping" />
-  <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/owasp.jpg?raw=1" width="420" alt="OWASP" />
-</p>
+| Vulnerability Scan (OWASP) | CVE Checker |
+| :---: | :---: |
+| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/owasp.jpg?raw=1" width="400" alt="Vulnerability Scan (OWASP)"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-CVE%20Check.jpg?raw=1" width="400" alt="CVE Checker"> |
 
-<p align="center">
-  <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-Test-Vuln-demo.owasp-juice.shop.jpg?raw=1" width="840" alt="Demo Vuln" />
-</p>
+| Privacy & Anti-Tracker | GPS & Sensor Data |
+| :---: | :---: |
+| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-Privacy.jpg?raw=1" width="400" alt="Privacy & Anti-Tracker"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-GPS-Sensor.jpg?raw=1" width="400" alt="GPS & Sensor Data"> |
 
 [→ Explore SanderShield](https://github.com/aleksandergrambelik-png/SanderShield)
 
