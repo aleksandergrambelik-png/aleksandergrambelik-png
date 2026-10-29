@@ -14,23 +14,38 @@ I often work from a phone, build in Java, and keep the tooling lean enough to be
 
 Built for CLI-first engineering, battery-aware automation, and tooling that still performs well when the hardware is constrained.
 
-## DragonFly BSD — Architectural Inspiration
+## Full Features
 
-I often draw architectural inspiration from DragonFly BSD when designing SanderShield and the rest of my defensive tooling. Below is a concise mapping of core DragonFly concepts to the corresponding design.
+### 1. Reconnaissance (RECON)
+- **Port Scanner:** 100-thread concurrent scanner to detect open ports (21, 22, 23, 25, 53, 80, 110, 111, 135, 139, 143, 443, 445, 3306, 3389, 8080, 5555).
+- **Ping:** Test network connectivity to any host or IP address (e.g., 8.8.8.8, 1.1.1.1).
+- **IP Geolocation:** Look up the physical location and ISP of any public IP address using the IP-API service.
 
-1. DragonFly BSD = Core Java
-   - DragonFly acts as the "engine" that manages system resources. I mirror that role with a compact Core architecture and CLI in Java (ConfigManager, OutputManager). Minimal layers, maximum efficiency.
+### 2. Web Vulnerability Scanner (WEB-VULN)
+- **12-Header Evidence Scanner:** Audits security headers (HSTS, CSP, X-Frame-Options, CORS, etc.) and outputs evidence in JSON format.
+- **NVD CVE Checker:** Connects directly to the National Vulnerability Database API to check for known CVEs (e.g., Log4Shell, Apache Path Traversal).
 
-2. HAMMER2 = StealthDefense
-   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust defensive logic.
+### 3. Active Defense (DEFENSE)
+- **Anti-Phising Clipboard Bot:** Monitors the clipboard in the background for phishing URLs (detects keywords like "login", "hadiah", ".xyz").
+- **Stealth Tarpit Honeypot:** Opens fake ports (2121, 2222, 3306, 8080, 33890) to trap and delay port scanners.
+- **Safety Guard:** Verifies the APK signature and SHA256 hash to prevent repackaging. Includes AGPLv3 license information.
 
-3. HAMMER1 = SanderScan
-   - HAMMER1 is the older, high-performance filesystem—fast and aggressive. SanderScan embraces that spirit with aggressive scanning mode, optimized for speed and direct results.
+### 4. Privacy & Anti-Tracking (PRIVACY)
+- **Anti-Tracker Auditor:** Scans installed applications for suspicious permissions (Background Location + Microphone + SMS).
+- **WiFi Scanner:** Lists nearby WiFi networks (SSID, BSSID, Signal Strength). Requires Location permission.
+- **GPS Guard:** Detects if the device is using mock locations and checks network roaming status.
 
-4. LWKT (Lightweight Kernel Threads) = Modular Task System
-   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run independently and efficiently.
+### 5. Hardware & Sensors (SENSORS)
+- **GPS Tracker:** Polls the device's GPS location every 5 seconds.
+- **Accelerometer:** Reads X, Y, Z axis data from the device's sensor.
 
-(Placed here so visitors can quickly understand the architectural philosophy behind the tooling.)
+### 6. System Information (INFO)
+- **Phone Info:** Retrieves the phone number and network operator (if permitted).
+- **WiFi Info:** Displays the current WiFi SSID and local IP address.
+- **Camera:** Opens the device's camera intent.
+
+### 7. Mini Terminal
+- Built-in manual command shell. Type `help` to see all available commands (e.g., `scan <ip>`, `vuln <url>`, `cve <ID>`, `gps on/off`).
 
 ## What I do
 
