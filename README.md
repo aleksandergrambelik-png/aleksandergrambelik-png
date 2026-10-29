@@ -1,17 +1,25 @@
 # Offensive + Defensive Security ⚡️
 
-This is a 2000s Undernet-style lab, proudly stuffed with polyglots — making everything more efficient, with simple tools. Back then we built stuff on Windows XP. Now we're on phones with potato-power and Java in the pocket.
-2000s undernet mindset. 2026 native Java. I write tools your antivirus can't detect. Don't ask me to fix your npm dependencies.
+This is a 2000s underground-style lab, packed with polyglots and practical tools — making everything more efficient, with simple systems. Back then we built things on Windows XP. Now we do it from phones with potato-power and Java in our pocket.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
+
+
+[![Download APK](https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
+
+[![Official SHA256](https://img.shields.io/badge/Official%20SHA256-4616e445b16199154a3885c4c69da936e4e08785c758b15257d7c3f54703cc3f-blue?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/blob/main/SanderShield.apk.sha256)
+
+[![APK Hash](https://img.shields.io/badge/APK%20Hash-98F229735D9C0ECF40262C826400237678020CB8F4E7350833DDB61E43DE2AA1-orange?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
+
+> Warning: This tool is intended for authorized testing only. Not for beginners. Minimum requirement: basic IT knowledge, understanding of web technologies, a cybersecurity mindset, and a bug-hunting / security-testing approach.
 
 ## Overview
 
 I build compact, high-performance network utilities for reconnaissance, hardening, and defensive automation. My work focuses on practical security tooling that runs efficiently in constrained environments.
 
-I often work from a phone, build in Java, and keep the tooling lean enough to be useful in real conditions. The goal is simple: fast signal, practical defense, and systems that remain useful under pressure.
+I often work from a phone, build in Java, and keep the tooling lean enough to remain useful in real conditions. The goal is simple: fast signal, practical defense, and systems that stay useful under pressure.
 
-Built for CLI-first engineering, battery-aware automation, and tooling that still performs well when the hardware is constrained.
+Built for CLI-first engineering, battery-aware automation, and tooling that still performs well even on limited hardware.
 
 ## Full Features
 
@@ -25,7 +33,7 @@ Built for CLI-first engineering, battery-aware automation, and tooling that stil
 - **NVD CVE Checker:** Connects directly to the National Vulnerability Database API to check for known CVEs (e.g., Log4Shell, Apache Path Traversal).
 
 ### 3. Active Defense (DEFENSE)
-- **Anti-Phising Clipboard Bot:** Monitors the clipboard in the background for phishing URLs (detects keywords like "login", "hadiah", ".xyz").
+- **Anti-Phishing Clipboard Bot:** Monitors the clipboard in the background for phishing URLs (detects keywords like "login", "hadiah", ".xyz").
 - **Stealth Tarpit Honeypot:** Opens fake ports (2121, 2222, 3306, 8080, 33890) to trap and delay port scanners.
 - **Safety Guard:** Verifies the APK signature and SHA256 hash to prevent repackaging. Includes AGPLv3 license information.
 
@@ -93,6 +101,12 @@ Minimal but effective defensive shield for hostile environments: request filteri
 
 I prefer tools that work in the wild: compact, fast, and useful. If it warms my phone, it still gets the job done.
 
+## Support Development
+
+If you want to support the project and keep the tools growing, you can buy me a coffee:
+
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/sander_0x04)
+
 ## GitHub Stats
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aleksandergrambelik-png&show_icons=true&theme=dark)
@@ -100,9 +114,6 @@ I prefer tools that work in the wild: compact, fast, and useful. If it warms my 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aleksandergrambelik-png&layout=compact&theme=dark)
 
 ---
-
-## Support Development
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/sander_0x04)
 
 ## Tech & Tools
 
