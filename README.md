@@ -222,6 +222,8 @@ Honeypot + Anti-bot + Tarpit defense with built-in filters (Clickjacking, SQLi/X
 
 Minimal but effective defensive shield for hostile environments: request filtering, hardening checks, and low-overhead monitoring built for mobile-first security tooling.
 
+![SanderShield PoC](https://raw.githubusercontent.com/aleksandergrambelik-png/SanderShield/main/screenshots/Screenshot-CVE%20Check.jpg)
+
 - Fast traffic filtering and anomaly detection
 - Lightweight defensive automation for exposed services
 - Hardening guidance and service exposure scoring
