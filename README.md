@@ -1,6 +1,6 @@
 # Offensive + Defensive Security ⚡️
 
-This is a 2000s Undernet-style lab, proudly stuffed with polyglots — making everything 'more efficient.' With simple tools. Back then we built stuff on Windows XP. Now we're on phones with potato specs 🤣 How efficient can modern interpreters get before the kernel's userland permissions slap you in the face?
+This is a 2000s Undernet-style lab, proudly stuffed with polyglots — making everything 'more efficient.' With simple tools. Back then we built stuff on Windows XP. Now we're on phones with potato specs, and we still make it work.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
@@ -8,6 +8,7 @@ This is a 2000s Undernet-style lab, proudly stuffed with polyglots — making ev
 [![SanderSuite](https://github.com/aleksandergrambelik-png/SanderSuite/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderSuite/actions/workflows/audit.yml)
 [![SanderScan](https://github.com/aleksandergrambelik-png/SanderScan/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderScan/actions/workflows/audit.yml)
 [![StealthDefense](https://github.com/aleksandergrambelik-png/StealthDefense/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/StealthDefense/actions/workflows/audit.yml)
+[![SanderShield](https://github.com/aleksandergrambelik-png/SanderShield/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderShield/actions/workflows/audit.yml)
 
 ## Overview
 
@@ -40,20 +41,20 @@ I often draw architectural inspiration from DragonFly BSD when designing SanderS
    - DragonFly acts as the "engine" that manages system resources. I mirror that role with a compact Core architecture and CLI in Java (ConfigManager, OutputManager). Minimal layers, maximum efficiency.
 
 2. HAMMER2 = StealthDefense
-   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust log capture.
+   - HAMMER2 is known for resilience (snapshots, deduplication, crash tolerance). StealthDefense follows the same philosophy: resilient honeypot behavior with tarpit engagement, fake banners, and robust detection.
 
 3. HAMMER1 = SanderScan
    - HAMMER1 is the older, high-performance filesystem—fast and aggressive. SanderScan embraces that spirit with aggressive scanning mode, optimized for speed and direct results.
 
 4. LWKT (Lightweight Kernel Threads) = Modular Task System
-   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run as independent, efficient workers.
+   - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run as independently as possible.
 
 (Placed here so visitors can quickly understand the architectural philosophy that influenced SanderSuite, SanderScan, and StealthDefense.)
 
 
 ## 📸 Proof of Concept (Live Test)
 
-Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and logged the event.
+Here is a real output from `stealth_log.csv` and `stealth_log.json` captured during a live test on a local network (Telkomsel Hotspot). The tool successfully detected a bot, engaged the tarpit, and logged the interaction.
 
 ### CSV Output (`stealth_log.csv`)
 
@@ -214,6 +215,23 @@ Honeypot + Anti-bot + Tarpit defense with built-in filters (Clickjacking, SQLi/X
 
 ---
 
+### SanderShield — Defensive Security Layer
+![version](https://img.shields.io/badge/version-1.0-blue)
+![license](https://img.shields.io/badge/license-GPL--3.0-green)
+![platform](https://img.shields.io/badge/platform-Termux%20%7C%20Linux%20%7C%20PC-orange)
+
+Minimal but effective defensive shield for hostile environments: request filtering, hardening checks, and low-overhead monitoring built for mobile-first security tooling.
+
+- Fast traffic filtering and anomaly detection
+- Lightweight defensive automation for exposed services
+- Hardening guidance and service exposure scoring
+- Built to complement recon and honeypot workflows
+- Designed for constrained devices and production-style triage
+
+[→ Explore SanderShield](https://github.com/aleksandergrambelik-png/SanderShield)
+
+---
+
 ## Philosophy
 
 I prefer tools that work in the wild: compact, fast, and useful. If it warms my phone, it still gets the job done.
@@ -233,4 +251,3 @@ I prefer tools that work in the wild: compact, fast, and useful. If it warms my 
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 Made on a phone. Made to work. ⚙️
-
