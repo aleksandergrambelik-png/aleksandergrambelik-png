@@ -1,6 +1,7 @@
 # Offensive + Defensive Security ⚡️
 
 This is a 2000s Undernet-style lab, proudly stuffed with polyglots — making everything more efficient, with simple tools. Back then we built stuff on Windows XP. Now we're on phones with potato-power and Java in the pocket.
+2000s undernet mindset. 2026 native Java. I write tools your antivirus can't detect. Don't ask me to fix your npm dependencies.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
