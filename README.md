@@ -4,10 +4,6 @@ This is a 2000s Undernet-style lab, proudly stuffed with polyglots — making ev
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
-[![SanderMultiVector](https://github.com/aleksandergrambelik-png/SanderMultiVector/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderMultiVector/actions/workflows/audit.yml)
-[![SanderSuite](https://github.com/aleksandergrambelik-png/SanderSuite/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderSuite/actions/workflows/audit.yml)
-[![SanderScan](https://github.com/aleksandergrambelik-png/SanderScan/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderScan/actions/workflows/audit.yml)
-[![StealthDefense](https://github.com/aleksandergrambelik-png/StealthDefense/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/StealthDefense/actions/workflows/audit.yml)
 [![SanderShield](https://github.com/aleksandergrambelik-png/SanderShield/actions/workflows/audit.yml/badge.svg)](https://github.com/aleksandergrambelik-png/SanderShield/actions/workflows/audit.yml)
 
 ## Overview
@@ -20,9 +16,9 @@ Built for CLI-first engineering, battery-aware automation, and tooling that stil
 
 ## DragonFly BSD — Architectural Inspiration
 
-I often draw architectural inspiration from DragonFly BSD when designing SanderSuite, SanderScan, and StealthDefense. Below is a concise mapping of core DragonFly concepts to the corresponding design.
+I often draw architectural inspiration from DragonFly BSD when designing SanderShield and the rest of my defensive tooling. Below is a concise mapping of core DragonFly concepts to the corresponding design.
 
-1. DragonFly BSD = Core Java (SanderSuite)
+1. DragonFly BSD = Core Java
    - DragonFly acts as the "engine" that manages system resources. I mirror that role with a compact Core architecture and CLI in Java (ConfigManager, OutputManager). Minimal layers, maximum efficiency.
 
 2. HAMMER2 = StealthDefense
@@ -34,7 +30,7 @@ I often draw architectural inspiration from DragonFly BSD when designing SanderS
 4. LWKT (Lightweight Kernel Threads) = Modular Task System
    - LWKT provides lightweight threading to run many tasks with low overhead. I apply that idea to a modular task system under com.sander.modules and a help/module system so features run independently and efficiently.
 
-(Placed here so visitors can quickly understand the architectural philosophy that influenced SanderSuite, SanderScan, and StealthDefense.)
+(Placed here so visitors can quickly understand the architectural philosophy behind the tooling.)
 
 ## What I do
 
@@ -45,44 +41,7 @@ I often draw architectural inspiration from DragonFly BSD when designing SanderS
 
 ---
 
-## Featured Projects — Ready to Run
-
-### 🛡️ SanderMultiVector
-
-> Hybrid Multi-Vector Bug Bounty Arsenal (Java + Perl + C++) for Termux/Linux.
-
-![Java](https://img.shields.io/badge/Java-11+-orange)
-![Perl](https://img.shields.io/badge/Perl-5.0+-blue)
-![C++](https://img.shields.io/badge/C++-11+-purple)
-![License](https://img.shields.io/badge/License-GPL--3.0-green)
-![Platform](https://img.shields.io/badge/Platform-Termux%20%7C%20Linux%20%7C%20Windows%20%7C%20macOS-brightgreen)
-
-**Features:**
-- **6 Attack Modes:** SQLi, XSS, RCE, LFI, API Injection, Typo Mapping.
-- **Hybrid Engine:** Java (Orchestrator) + Perl (Obfuscator) + C++ (Fast HTTP).
-- **Double Output:** Real-time Terminal + JSONL Audit Log.
-- **Interactive & CLI Mode:** Colored Menu + Command Line Support.
-- **Cross-Platform:** Termux, Linux, Windows, macOS.
-- **AI-Powered:** Built with Qwen 3.7 Plus & DeepSeek V4.1 Pro.
-
-[→ View Repository](https://github.com/aleksandergrambelik-png/SanderMultiVector)
-
-### SanderSuite — Beacon-Oriented Security Suite
-
-![version](https://img.shields.io/badge/version-1.0-blue)
-![license](https://img.shields.io/badge/license-GPL--3.0-green)
-![platform](https://img.shields.io/badge/platform-Linux-orange)
-
-A compact but ruthless security toolkit for beacon-driven intelligence, exposure mapping, and defensive action on Linux.
-
-- Fast beaconing and service discovery
-- Pseudo-AI risk triage for prioritizing exposed targets
-- Exposure mapping under active threat pressure
-- Banner and service fingerprinting
-- Defensive hardening, lockdown guidance, and reporting
-- Built for rapid decision-making in noisy, high-risk environments
-
-SanderSuite is not just a recon tool. It behaves like a beacon engine: it emits signals, captures service intelligence, identifies exposed assets, and ranks the most dangerous targets before action.
+## Featured Project — SanderShield
 
 ### 🛡️ SanderShield — Defensive Hardening & Exposure Control
 
