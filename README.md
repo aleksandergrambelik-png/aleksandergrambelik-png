@@ -84,72 +84,7 @@ A compact but ruthless security toolkit for beacon-driven intelligence, exposure
 SanderSuite is not just a recon tool. It behaves like a beacon engine: it emits signals, captures service intelligence, identifies exposed assets, and ranks the most dangerous targets before action is taken.
 
 #### Core Features
-
-##### 1. WAF Engine
-Built-in payload filtering layer that blocks malicious requests before they reach the core logic.
-
-- SQL Injection (SQLi)
-  - UNION-based payloads
-  - classic boolean bypasses
-  - time-based injection patterns
-- XSS
-  - script tags
-  - javascript: payloads
-  - event handlers such as onerror=
-- LFI
-  - traversal attempts such as ../../etc/passwd
-  - Windows path traversal patterns
-- CMD Injection
-  - command chaining via ;, |, &&, $()
-- Sensitive Path Blocking
-  - /.env
-  - /.git/
-  - /wp-config.php
-  - /actuator
-- Java Injection
-  - Runtime.getRuntime()
-  - ProcessBuilder
-  - System.exit
-- Nuclei Scanner Detection
-  - common nuclei user-agent and request patterns
-
-##### 2. Anti-Esoteric Language Filter
-Catches payloads generated from unusual or obfuscated languages often seen in CTF and hostile scanning contexts.
-
-- Brainfuck payload signatures
-- JSFuck payload signatures
-- obfuscated language markers such as fuck, kcuf, feck, and related variations
-
-##### 3. Anti-Scan & Anti-Bot
-Detection layer for noisy scanners and bot activity that behaves aggressively without normal application traffic.
-
-- Anti-port scan tracking
-  - repeated connection attempts across multiple ports from a single source
-- Silent scan detection
-  - scanners that probe without sending meaningful payloads
-- Bot and abnormal behavior detection
-
-##### 4. AI Threat Scoring
-A lightweight scoring engine that turns activity into action.
-
-- Monitor
-  - score 1–29
-  - logged and gently challenged
-- Tarpit
-  - score 30–69
-  - delayed and throttled responses
-- Block
-  - score 70+
-  - permanent blacklist trigger
-
-[→ Explore SanderSuite](https://github.com/aleksandergrambelik-png/SanderSuite)
-
----
-
-
-
-### SanderShield — Defensive Security Layer
-![version](https://img.shields.io/badge/version-1.0-blue)
+rsion](https://img.shields.io/badge/version-1.0-blue)
 ![license](https://img.shields.io/badge/license-GPL--3.0-green)
 ![platform](https://img.shields.io/badge/platform-Termux%20%7C%20Linux%20%7C%20PC-orange)
 
