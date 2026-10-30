@@ -16,6 +16,49 @@ This is a 2000s underground-style lab, packed with polyglots and practical tools
 
 [![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
+### What's New : [![Release v38.0](https://img.shields.io/badge/Release-v38.0-2ea44f?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/releases/tag/v38.0)
+
+- **Splash Screen:** Boot animation with ASCII loading sequence.
+- **ASCII Banner:** New hacker-style banner on startup.
+- **Hardware Monitor:** Real-time battery percentage and signal strength (dBm) monitor.
+- **Clean Manifest:** Removed duplicated permissions, optimized for Android 12+.
+
+## 🔍 Hex Viewer: What Can You Inspect?
+
+The Hex Viewer is a built-in native tool to read the raw binary data (Magic Bytes) of almost any file. It's perfect for quick digital forensics and malware analysis without needing a PC.
+
+### Supported File Types & Use Cases:
+
+1. **Images (JPG, PNG, WEBP)**
+   * **What you'll see:** Magic Bytes (e.g., JPEG starts with `FF D8 FF`, PNG with `89 50 4E 47`).
+   * **Use Case:** Verify if a file received via WhatsApp is actually an image or a disguised malware (e.g., an `.apk` renamed to `.jpg`).
+
+2. **Android APKs**
+   * **What you'll see:** APKs are ZIP archives. You'll see the `50 4B 03 04` (PK) header and strings like `AndroidManifest.xml` or `classes.dex`.
+   * **Use Case:** Quick recon to identify package names or libraries inside an APK without decompiling it with heavy tools.
+
+3. **Text / Scripts (HTML, XML, JS, SH)**
+   * **What you'll see:** Readable text in the hex dump (e.g., `3C 68 74 6D 6C 3E` translates to `<html>`).
+   * **Use Case:** Inspect hidden scripts or read config files that contain weird characters not supported by standard text editors.
+
+4. **Databases (.db / .sqlite)**
+   * **What you'll see:** The `53 51 4C 69 74 65 20 66 6F 72 6D 61 74 20 33` header (SQLite format 3).
+   * **Use Case:** Verify if a database is authentic or scan for hidden strings inside it.
+
+5. **System / Linux Binaries (.dex, ELF, .so)**
+   * **What you'll see:** The `7F 45 4C 46` header (ELF), indicating a Linux executable.
+   * **Use Case:** Basic malware analysis or file system integrity checks.
+
+6. **Archives (ZIP, RAR, 7z)**
+   * **What you'll see:** Magic bytes like `50 4B` (ZIP) or `52 61 72 21` (Rar!).
+   * **Use Case:** Check for corrupted archives or detect hidden files embedded inside an archive (like a ZIP bomb).
+
+### 📖 How to Use (Cara Pakai)
+1. Open the SanderShield Terminal.
+2. Type the following command:
+   ```bash
+   hex /sdcard/Download/yourfile.jpg
+
 
 ## Overview
 
