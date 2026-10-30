@@ -13,6 +13,12 @@ I often work from a phone, build in Java, and keep the tooling lean enough to re
 
 Built for CLI-first engineering, battery-aware automation, and tooling that still performs well even on limited hardware.
 
+## Why SanderShield?
+
+- **No Termux Required:** Unlike other tools that are just wrapper scripts, SanderShield is a 100% Native Java APK. You don't need to install Termux, Python, or any other environment. Download the APK, install it, and it runs directly.
+- **Anti-Tamper Protection:** Built-in "Safety Guard" verifies the APK's digital signature and SHA256 hash. If someone tries to repack the APK or inject malicious code, the app will detect it and refuse to run.
+- **Zero Dependencies:** No external libraries. No Gradle. No bloatware.
+
 ## Full Features
 
 ### 1. Reconnaissance (RECON)
