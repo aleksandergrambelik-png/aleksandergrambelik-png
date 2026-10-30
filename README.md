@@ -7,9 +7,13 @@ This is a 2000s underground-style lab, packed with polyglots and practical tools
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
 [![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
+
 [![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-maroon?style=for-the-badge&logo=hackthebox)](https://www.hackthebox.com/)
-[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield)
+
+[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield//releases/tag/v38.0)
+
 [![Bug Bounty](https://img.shields.io/badge/Bug-Bounty-gold?style=for-the-badge&logo=bugcrowd)](https://www.bugcrowd.com/bug-bounty-university/)
+
 [![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
 
@@ -84,18 +88,27 @@ As seen in the screenshot, the output shows "device_rooted": false and "status":
 ## Featured Project — SanderShield
 
 ### 🛡️ SanderShield — Defensive Hardening & Exposure Control
+## Legacy
 
-![version](https://img.shields.io/badge/version-v38.0-blue)
+![version](https://img.shields.io/badge/version-v34.0-blue)
+
+## NEW
+
 [![Release v38.0](https://img.shields.io/badge/Release-v38.0-2ea44f?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/releases/tag/v38.0)
+
+
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
 [![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
+
 [![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-maroon?style=for-the-badge&logo=hackthebox)](https://www.hackthebox.com/)
+
 [![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield)
+
 [![Bug Bounty](https://img.shields.io/badge/Bug-Bounty-gold?style=for-the-badge&logo=bugcrowd)](https://www.bugcrowd.com/bug-bounty-university/)
+
 [![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
-
-[![Download APK](https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
 
 [![Official SHA256](https://img.shields.io/badge/Official%20SHA256-4616e445b16199154a3885c4c69da936e4e08785c758b15257d7c3f54703cc3f-blue?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/releases/tag/v38.0)
 
