@@ -5,14 +5,6 @@ This is a 2000s underground-style lab, packed with polyglots and practical tools
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
 
 
-[![Download APK](https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
-
-[![Official SHA256](https://img.shields.io/badge/Official%20SHA256-4616e445b16199154a3885c4c69da936e4e08785c758b15257d7c3f54703cc3f-blue?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/blob/main/SanderShield.apk.sha256)
-
-[![APK Hash](https://img.shields.io/badge/APK%20Hash-98F229735D9C0ECF40262C826400237678020CB8F4E7350833DDB61E43DE2AA1-orange?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
-
-> Warning: This tool is intended for authorized testing only. Not for beginners. Minimum requirement: basic IT knowledge, understanding of web technologies, a cybersecurity mindset, and a bug-hunting / security-testing approach.
-
 ## Overview
 
 I build compact, high-performance network utilities for reconnaissance, hardening, and defensive automation. My work focuses on practical security tooling that runs efficiently in constrained environments.
@@ -70,6 +62,15 @@ Built for CLI-first engineering, battery-aware automation, and tooling that stil
 ![version](https://img.shields.io/badge/version-1.0-blue)
 ![license](https://img.shields.io/badge/license-GPL--3.0-green)
 ![platform](https://img.shields.io/badge/platform-Termux%20%7C%20Linux%20%7C%20Windows-orange)
+
+
+[![Download APK](https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
+
+[![Official SHA256](https://img.shields.io/badge/Official%20SHA256-4616e445b16199154a3885c4c69da936e4e08785c758b15257d7c3f54703cc3f-blue?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/blob/main/SanderShield.apk.sha256)
+
+[![APK Hash](https://img.shields.io/badge/APK%20Hash-98F229735D9C0ECF40262C826400237678020CB8F4E7350833DDB61E43DE2AA1-orange?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
+
+> Warning: This tool is intended for authorized testing only. Not for beginners. Minimum requirement: basic IT knowledge, understanding of web technologies, a cybersecurity mindset, and a bug-hunting / security-testing approach.
 
 Minimal but effective defensive shield for hostile environments: request filtering, hardening checks, and low-overhead monitoring built for mobile-first security tooling.
 
