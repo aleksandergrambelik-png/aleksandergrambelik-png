@@ -1,6 +1,6 @@
 # Offensive + Defensive Security ⚡️
 
-This is a 2000s underground-style lab, packed with polyglots and practical tools — making everything more efficient, with simple systems. Back then we built things on Windows XP. Now we do it from phones with potato-power and Java in our pocket.
+This is a 2000s underground-style lab, packed with polyglots and practical tools — making everything more efficient, with simple systems. Back then we built things on Windows XP. Now we do it from a modern Android-first workflow.
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
@@ -28,14 +28,14 @@ Modern devs are obsessed with licenses and copyrights. Back in 2009, we just sha
 
 SanderShield is designed to be Stealth & Portable. It does not require root access because it uses pure Java Sockets (TCP Connect scan), which is highly accurate for checking ports.
 
-We believe that if you use root, your phone is already "dirty" and its integrity cannot be guaranteed. We want you to focus on the target and audit your actual work, not on messing with your own device's system.
+We believe that if you use root, your phone is already "dirty" and its integrity cannot be guaranteed. We want you to focus on the target and audit your actual work, not on messing with your own device.
 
 1. Safety Guard Detect Root:
-As seen in the screenshot, the output shows "device_rooted": false and "status": "SECURE". This means the app hooks into the system to check if the phone is rooted. If it is, the Safety Guard will trigger to block access.
+As seen in the screenshot, the output shows "device_rooted": false and "status": "SECURE". This means the app hooks into the system to check if the phone is rooted. If it is, the Safety Guard will trigger protective actions.
 
 ## Why SanderShield?
 
-- **No Termux Required:** Unlike other tools that are just wrapper scripts, SanderShield is a 100% Native Java APK. You don't need to install Termux, Python, or any other environment. Download the APK, install it, and it runs directly.
+- **No Termux Required:** Unlike other tools that are just wrapper scripts, SanderShield is a 100% Native Java APK. You don't need to install Termux, Python, or any other environment. Download the APK and use it directly.
 - **Anti-Tamper Protection:** Built-in "Safety Guard" verifies the APK's digital signature and SHA256 hash. If someone tries to repack the APK or inject malicious code, the app will detect it and refuse to run.
 - **Zero Dependencies:** No external libraries. No Gradle. No bloatware.
 
@@ -85,7 +85,8 @@ As seen in the screenshot, the output shows "device_rooted": false and "status":
 
 ### 🛡️ SanderShield — Defensive Hardening & Exposure Control
 
-![version](https://img.shields.io/badge/version-27-blue)
+![version](https://img.shields.io/badge/version-v38.0-blue)
+[![Release v38.0](https://img.shields.io/badge/Release-v38.0-2ea44f?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/releases/tag/v38.0)
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
 [![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-maroon?style=for-the-badge&logo=hackthebox)](https://www.hackthebox.com/)
@@ -96,11 +97,11 @@ As seen in the screenshot, the output shows "device_rooted": false and "status":
 
 [![Download APK](https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
 
-[![Official SHA256](https://img.shields.io/badge/Official%20SHA256-4616e445b16199154a3885c4c69da936e4e08785c758b15257d7c3f54703cc3f-blue?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/blob/main/SanderShield.apk.sha256)
+[![Official SHA256](https://img.shields.io/badge/Official%20SHA256-4616e445b16199154a3885c4c69da936e4e08785c758b15257d7c3f54703cc3f-blue?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/releases/tag/v38.0)
 
-[![APK Hash](https://img.shields.io/badge/APK%20Hash-98F229735D9C0ECF40262C826400237678020CB8F4E7350833DDB61E43DE2AA1-orange?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
+[![APK Hash](https://img.shields.io/badge/APK%20Hash-98F229735D9C0ECF40262C826400237678020CB8F4E7350833DDB61E43DE2AA1-orange?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/releases/tag/v38.0)
 
-> Warning: This tool is intended for authorized testing only. Not for beginners. Minimum requirement: basic IT knowledge, understanding of web technologies, a cybersecurity mindset, and a bug-hunting / security-testing approach.
+> Warning: This tool is intended for authorized testing only. Not for beginners. Minimum requirement: basic IT knowledge, understanding of web technologies, a cybersecurity mindset, and a bug-hunting mindset.
 
 Minimal but effective defensive shield for hostile environments: request filtering, hardening checks, and low-overhead monitoring built for mobile-first security tooling.
 
@@ -114,15 +115,15 @@ Minimal but effective defensive shield for hostile environments: request filteri
 
 | Main Terminal | Command Help |
 | :---: | :---: |
-| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-command-help.jpg?raw=1" width="400" alt="Main Terminal"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-ping.jpg?raw=1" width="400" alt="Command Help"> |
+| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-command-help.jpg?raw=1" width="400" alt="Main Terminal"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-command-help.jpg?raw=1" width="400" alt="Command Help"> |
 
 | Vulnerability Scan (OWASP) | CVE Checker |
 | :---: | :---: |
-| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/owasp.jpg?raw=1" width="400" alt="Vulnerability Scan (OWASP)"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-CVE%20Check.jpg?raw=1" width="400" alt="CVE Checker"> |
+| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/owasp.jpg?raw=1" width="400" alt="Vulnerability Scan (OWASP)"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/owasp.jpg?raw=1" width="400" alt="CVE Checker"> |
 
 | Privacy & Anti-Tracker | GPS & Sensor Data |
 | :---: | :---: |
-| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-Privacy.jpg?raw=1" width="400" alt="Privacy & Anti-Tracker"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-GPS-Sensor.jpg?raw=1" width="400" alt="GPS & Sensor Data"> |
+| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-Privacy.jpg?raw=1" width="400" alt="Privacy & Anti-Tracker"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-Privacy.jpg?raw=1" width="400" alt="GPS & Sensor Data"> |
 
 [→ Explore SanderShield](https://github.com/aleksandergrambelik-png/SanderShield)
 
