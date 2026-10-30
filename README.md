@@ -21,6 +21,9 @@ I build in Java, and keep the tooling lean enough to remain useful in real condi
 
 Built for CLI-first engineering, battery-aware automation, and tooling that still performs well even on limited hardware.
 
+I don't beg for Stars or Forks. I build because I want to. If you use it, great. If you donate, thank you. If you don't, I don't care."
+Modern devs are obsessed with licenses and copyrights. Back in 2009, we just shared the code and said 'here, don't be a skid'. 🥸
+
 ## Stealth & Portable Philosophy
 
 SanderShield is designed to be Stealth & Portable. It does not require root access because it uses pure Java Sockets (TCP Connect scan), which is highly accurate for checking ports.
