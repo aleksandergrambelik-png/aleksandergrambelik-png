@@ -78,7 +78,7 @@ As seen in the screenshot, the output shows "device_rooted": false and "status":
 ![license](https://img.shields.io/badge/license-GPL--3.0-green)
 [![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
 [![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-maroon?style=for-the-badge&logo=hackthebox)](https://www.hackthebox.com/)
-[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield/releases)
+[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield)
 
 
 [![Download APK](https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
