@@ -3,6 +3,11 @@
 This is a 2000s underground-style lab, packed with polyglots and practical tools — making everything more efficient, with simple systems. Back then we built things on Windows XP. Now we do it from phones with potato-power and Java in our pocket.
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
+[![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
+[![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-maroon?style=for-the-badge&logo=hackthebox)](https://www.hackthebox.com/)
+[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield)
+[![Bug Bounty](https://img.shields.io/badge/Bug-Bounty-gold?style=for-the-badge&logo=bugcrowd)](https://www.bugcrowd.com/bug-bounty-university/)
+[![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
 
 ## Overview
@@ -74,11 +79,13 @@ As seen in the screenshot, the output shows "device_rooted": false and "status":
 
 ### 🛡️ SanderShield — Defensive Hardening & Exposure Control
 
-![version](https://img.shields.io/badge/version-1.0-blue)
+![version](https://img.shields.io/badge/version-27-blue)
 ![license](https://img.shields.io/badge/license-GPL--3.0-green)
 [![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
 [![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-maroon?style=for-the-badge&logo=hackthebox)](https://www.hackthebox.com/)
 [![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield)
+[![Bug Bounty](https://img.shields.io/badge/Bug-Bounty-gold?style=for-the-badge&logo=bugcrowd)](https://www.bugcrowd.com/bug-bounty-university/)
+[![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
 
 [![Download APK](https://img.shields.io/badge/Download-APK-2ea44f?style=for-the-badge&logo=android&logoColor=white)](https://github.com/aleksandergrambelik-png/SanderShield/raw/main/SanderShield.apk)
