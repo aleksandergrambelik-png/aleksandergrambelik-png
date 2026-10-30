@@ -17,7 +17,7 @@ This is a 2000s underground-style lab, packed with polyglots and practical tools
 
 I build compact, high-performance network utilities for reconnaissance, hardening, and defensive automation. My work focuses on practical security tooling that runs efficiently in constrained environments.
 
-I often work from a phone, build in Java, and keep the tooling lean enough to remain useful in real conditions. The goal is simple: fast signal, practical defense, and systems that stay useful under pressure.
+I build in Java, and keep the tooling lean enough to remain useful in real conditions. The goal is simple: fast signal, practical defense, and systems that stay useful under pressure.
 
 Built for CLI-first engineering, battery-aware automation, and tooling that still performs well even on limited hardware.
 
