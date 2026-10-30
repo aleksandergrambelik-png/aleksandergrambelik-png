@@ -13,6 +13,15 @@ I often work from a phone, build in Java, and keep the tooling lean enough to re
 
 Built for CLI-first engineering, battery-aware automation, and tooling that still performs well even on limited hardware.
 
+## Stealth & Portable Philosophy
+
+SanderShield is designed to be Stealth & Portable. It does not require root access because it uses pure Java Sockets (TCP Connect scan), which is highly accurate for checking ports.
+
+We believe that if you use root, your phone is already "dirty" and its integrity cannot be guaranteed. We want you to focus on the target and audit your actual work, not on messing with your own device's system.
+
+1. Safety Guard Detect Root:
+As seen in the screenshot, the output shows "device_rooted": false and "status": "SECURE". This means the app hooks into the system to check if the phone is rooted. If it is, the Safety Guard will trigger to block access.
+
 ## Why SanderShield?
 
 - **No Termux Required:** Unlike other tools that are just wrapper scripts, SanderShield is a 100% Native Java APK. You don't need to install Termux, Python, or any other environment. Download the APK, install it, and it runs directly.
