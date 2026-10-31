@@ -187,20 +187,6 @@ Minimal but effective defensive shield for hostile environments: request filteri
 - Built to complement recon and honeypot workflows
 - Designed for constrained devices and production-style triage
 
-## Screenshots
-
-| Main Terminal | Command Help |
-| :---: | :---: |
-| <img src="screenshots/Screenshot-command-help.jpg" width="400"> | <img src="screenshots/Screenshot-ping.jpg" width="400"> |
-
-| Vulnerability Scan (OWASP) | CVE Checker |
-| :---: | :---: |
-| <img src="screenshots/owasp.jpg" width="400"> | <img src="screenshots/Screenshot-CVE Check.jpg" width="400"> |
-
-| Privacy & Anti-Tracker | GPS & Sensor Data |
-| :---: | :---: |
-| <img src="screenshots/Screenshot-Privacy.jpg" width="400"> | <img src="screenshots/Screenshot-GPS-Sensor.jpg" width="400"> |
-
 
 [→ Explore SanderShield](https://github.com/aleksandergrambelik-png/SanderShield)
 
