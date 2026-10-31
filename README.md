@@ -191,15 +191,16 @@ Minimal but effective defensive shield for hostile environments: request filteri
 
 | Main Terminal | Command Help |
 | :---: | :---: |
-| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-command-help.jpg?raw=1" width="400" alt="Main Terminal"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-command-help.jpg?raw=1" width="400" alt="Command Help"> |
+| <img src="screenshots/Screenshot-command-help.jpg" width="400"> | <img src="screenshots/Screenshot-ping.jpg" width="400"> |
 
 | Vulnerability Scan (OWASP) | CVE Checker |
 | :---: | :---: |
-| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/owasp.jpg?raw=1" width="400" alt="Vulnerability Scan (OWASP)"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/owasp.jpg?raw=1" width="400" alt="CVE Checker"> |
+| <img src="screenshots/owasp.jpg" width="400"> | <img src="screenshots/Screenshot-CVE Check.jpg" width="400"> |
 
 | Privacy & Anti-Tracker | GPS & Sensor Data |
 | :---: | :---: |
-| <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-Privacy.jpg?raw=1" width="400" alt="Privacy & Anti-Tracker"> | <img src="https://github.com/aleksandergrambelik-png/SanderShield/blob/main/screenshots/Screenshot-Privacy.jpg?raw=1" width="400" alt="GPS & Sensor Data"> |
+| <img src="screenshots/Screenshot-Privacy.jpg" width="400"> | <img src="screenshots/Screenshot-GPS-Sensor.jpg" width="400"> |
+
 
 [→ Explore SanderShield](https://github.com/aleksandergrambelik-png/SanderShield)
 
