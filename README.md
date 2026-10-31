@@ -23,6 +23,20 @@ This is a 2000s underground-style lab, packed with polyglots and practical tools
 - **Hardware Monitor:** Real-time battery percentage and signal strength (dBm) monitor.
 - **Clean Manifest:** Removed duplicated permissions, optimized for Android 12+.
 
+### Apk. New Native Hex Editor & Reverse Tool On Mobile  No Root
+
+[![Release v1.0](https://img.shields.io/badge/Release-v1.0-2ea44f?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderHexDump/releases/tag/v1.0)
+
+0.Classic Hex View: 12-byte per line with Offset, Hex, and ASCII representation side-by-side.
+1.Color Highlighting: Blue for Offset, White for Hex, and Gray for non-printable ASCII. Optimized for readability.
+2.Bold Monospace Font: Tuned for 720p mobile screens to prevent text wrapping.
+3.Copy Log: Easily copy the entire hex dump to your clipboard for reporting.
+4.BackTrack-Style UI: Pure black background with a terminal-like interface. No bloated UI elements.
+
+### SCRENSHOOT
+<img width="1080" height="2015" alt="Image" src="https://github.com/user-attachments/assets/438efa97-a837-40b5-bd7e-d8da93efc58a" />
+
+
 ## 🔍 Hex Viewer: What Can You Inspect?
 
 The Hex Viewer is a built-in native tool to read the raw binary data (Magic Bytes) of almost any file. It's perfect for quick digital forensics and malware analysis without needing a PC.
