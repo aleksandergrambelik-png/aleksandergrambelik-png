@@ -2,6 +2,14 @@
 
 This is a 2000s underground-style lab, packed with polyglots and practical tools — making everything more efficient, with simple systems. Back then we built things on Windows XP. Now we do it from a modern Android-first workflow.
 
+"I don't care if I get banned — I'm just sharing. If you don't want it, ignore it or just delete the post. They forgot the open-source principle of sharing code to create new innovations. Do they underestimate the underground open-source? If there were no underground practitioners from the 2000s, could they even become cybersecurity? 🫵
+
+Hey, you use an Android phone? That's the work of thousands of open-source developers who were once considered 'naughty hackers' by the government. Now you're the gatekeeper silencing fellow creators?
+
+Share or die." Exploits, patches, tools — they were shared on IRC channels, mailing lists, forums like Astalavista, Packet Storm, or the comp.security newsgroup. People shared because they understood: knowledge kept to yourself is dead knowledge. Not because they were 'nice,' but because they understood that innovation needs a relay chain. If everyone keeps it to themselves, that chain breaks.
+
+Share the exploit. Share the patch and the counter. Let everyone see, audit, and fix it. If it's hidden, that vulnerability will be used by criminals forever.
+
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
