@@ -1,8 +1,5 @@
 # Offensive + Defensive Security ⚡️
 
-This is a 2000s underground-style lab, packed with polyglots and practical tools — making everything more efficient, with simple systems. Back then we built things on Windows XP. Now we do it from a modern Android-first workflow.
-
-"I don't care if I get banned — I'm just sharing. If you don't want it, ignore it or just delete the post. They forgot the open-source principle of sharing code to create new innovations. Do they underestimate the underground open-source? If there were no underground practitioners from the 2000s, could they even become cybersecurity? 🫵
 
 Hey, you use an Android phone? That's the work of thousands of open-source developers who were once considered 'naughty hackers' by the government. Now you're the gatekeeper silencing fellow creators?
 
@@ -23,6 +20,49 @@ Share the exploit. Share the patch and the counter. Let everyone see, audit, and
 [![Bug Bounty](https://img.shields.io/badge/Bug-Bounty-gold?style=for-the-badge&logo=bugcrowd)](https://www.bugcrowd.com/bug-bounty-university/)
 
 [![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
+
+# SanderGate
+### Local API Firewall & Git Client for Android
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+[![Language: Java](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com/)
+
+A lightweight Android app for working with GitHub through a local API proxy. Manage an allowlist of repositories, inspect proxy activity, and create or update repository files from the app.
+
+</div>
+
+## Overview
+
+SanderGate is built in native Java and designed to run on Android alongside Termux. Its local HTTP proxy listens on port `8080`, checks repository requests against an allowlist, and forwards allowed requests to the GitHub API. The app also includes a Git commit interface, PIN lock, fingerprint unlock, and a live console for activity logs.
+
+> **Security note:** The repository allowlist controls which repository requests the proxy forwards; it is not a general-purpose network firewall. A GitHub Personal Access Token (PAT) is a sensitive credential. Use the minimum permissions required, keep it private, and do not include it in screenshots, logs, or committed files. PIN and biometric features protect app access but should not be treated as proof that credentials are hardware-encrypted.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/4b075be3-9cdf-4c4d-a953-f6cfe1b50a9c" alt="SanderGate screenshot 1" width="230"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/14fba5ab-e4b2-448f-a1e9-50efd1ec0bb4" alt="SanderGate screenshot 2" width="230"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/ff98e7e6-2bcc-4611-a7bd-4cec0f3d3bb5" alt="SanderGate screenshot 3" width="230"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/bcb19e4c-5a76-4d2c-9ecc-77796d395ac1" alt="SanderGate screenshot 4" width="230"></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="https://github.com/user-attachments/assets/90cd9dd3-de62-4ae0-a5c4-5b9e20ee8ba4" alt="SanderGate screenshot 5" width="230"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/0512a7c2-ffe7-407c-ba21-bccd8130046d" alt="SanderGate screenshot 6" width="230"></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/eb6b02b1-b472-4e9d-9376-3166cd8318e7" alt="SanderGate screenshot 7" width="230"></td>
+    <td></td>
+  </tr>
+</table>
+
+## Features
+
+- **Local API proxy:** HTTP server on port `8080` for GitHub API requests.
+- **Repository allowlist:** Forward requests for listed repositories and block requests for repositories that are not listed.
+- **GitHub file operations:** Create or update files using the in-app Git commit terminal.
+- **PIN lock and fingerprint unlock:** App access controls for supported devices.
+- **Live console:** Terminal-style interface with color-coded activity logs.
+- **Native Java:** No Gradle, AndroidX, or third-party libraries are used by the project.
+
 
 ### What's New : [![Release v38.0](https://img.shields.io/badge/Release-v38.0-2ea44f?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderShield/releases/tag/v38.0)
 
