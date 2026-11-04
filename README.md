@@ -26,6 +26,7 @@ Share the exploit. Share the patch and the counter. Let everyone see, audit, and
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 [![Language: Java](https://img.shields.io/badge/Language-Java-orange.svg)](https://www.java.com/)
+[![Repositories v1.0](https://img.shields.io/badge/Release-v1.0-2ea44f?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderGate-APK)
 
 A lightweight Android app for working with GitHub through a local API proxy. Manage an allowlist of repositories, inspect proxy activity, and create or update repository files from the app.
 
