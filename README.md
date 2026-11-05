@@ -13,11 +13,7 @@ Share the exploit. Share the patch and the counter. Let everyone see, audit, and
 
 [![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
 
-[![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-maroon?style=for-the-badge&logo=hackthebox)](https://www.hackthebox.com/)
-
 [![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield//releases/tag/v38.0)
-
-[![Bug Bounty](https://img.shields.io/badge/Bug-Bounty-gold?style=for-the-badge&logo=bugcrowd)](https://www.bugcrowd.com/bug-bounty-university/)
 
 [![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
@@ -213,11 +209,7 @@ As seen in the screenshot, the output shows "device_rooted": false and "status":
 
 [![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
 
-[![Ethical Hacking](https://img.shields.io/badge/Ethical-Hacking-maroon?style=for-the-badge&logo=hackthebox)](https://www.hackthebox.com/)
-
 [![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield)
-
-[![Bug Bounty](https://img.shields.io/badge/Bug-Bounty-gold?style=for-the-badge&logo=bugcrowd)](https://www.bugcrowd.com/bug-bounty-university/)
 
 [![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
