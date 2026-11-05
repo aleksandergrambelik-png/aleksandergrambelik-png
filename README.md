@@ -3,9 +3,14 @@
 
 Hey, you use an Android phone? That's the work of thousands of open-source developers who were once considered 'naughty hackers' by the government. Now you're the gatekeeper silencing fellow creators?
 
-Share or die." Exploits, patches, tools — they were shared on IRC channels, mailing lists, forums like Astalavista, Packet Storm, or the comp.security newsgroup. People shared because they understood: knowledge kept to yourself is dead knowledge. Not because they were 'nice,' but because they understood that innovation needs a relay chain. If everyone keeps it to themselves, that chain breaks.
+This code is alive & functioning. But if you're looking for bugs, holes, or weaknesses... go ahead and try. I've already set up the traps.
 
-Share the exploit. Share the patch and the counter. Let everyone see, audit, and fix it. If it's hidden, that vulnerability will be used by criminals forever.
+Want to look for weaknesses??? Then there's only 1 who can do it, and that's someone who understands zero-dependency Java 🐦
+
+People looking for weaknesses in SanderGate and the Tool and APK using standard tools (SAST/DAST/Dependabot)? They'll get the result: "No vulnerabilities found."
+Not because the code is perfectly safe. But because those tools are blind to logic that doesn't depend on other people's libraries.
+
+As long as the JVM/ART still supports basic Java bytecode, SanderGate and the tool and APK will keep running without updates and standalone.
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
