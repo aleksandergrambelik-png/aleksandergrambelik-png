@@ -5,6 +5,10 @@ Hey, you use an Android phone? That's the work of thousands of open-source devel
 
 This code is alive & functioning. But if you're looking for bugs, holes, or weaknesses... go ahead and try. I've already set up the traps.
 
+"No cloud costs, no domain, no central database. Everything is self-contained inside the Android sandbox." and keyloader (TEE)
+
+"'Zero infrastructure, zero dependency — is that the trap?' → So what gap can you exploit inside the APK itself if there are no external libraries? Where it's pure logic?"
+
 Want to look for weaknesses??? Then there's only 1 who can do it, and that's someone who understands zero-dependency Java 🐦
 
 People looking for weaknesses in SanderGate and the Tool and APK using standard tools (SAST/DAST/Dependabot)? They'll get the result: "No vulnerabilities found."
