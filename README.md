@@ -1,5 +1,10 @@
 # Offensive + Defensive Security ⚡️
 
+### README.md Profile turns into a newspaper timestamp🐒
+
+Experimenting is indeed productive, huh? In my opinion it's just so-so🤣🤣 For me, experimenting is like "whoa that's cool, I could change this, oh if it's like this then cool, let me try it, test it, contact a friend. Bro, can I borrow your home lab, I want to test. And test it, whoa it worked, push it. Then make another one 🤣🤣"
+
+I started pushing my experiments to GitHub and GitLab from October 13, 2026 until November 6, 2026. Rather than letting them become cache and me deleting them, I'd better push them to GitHub and GitLab and share them on Reddit.
 
 ### 👀🧟🐦✨🐒🐢
 
