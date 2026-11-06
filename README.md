@@ -8,6 +8,14 @@
 
 · [OVERRIDE] No more brackets. Pure ASCII only.
 
+· [CRASH] SanderNative.java committed suicide.
+
+· [SEGFAULT] C++ pointer went to the wrong address. RIP.
+
+· [JNI] Java asked C++ a question. C++ replied "null". They are no longer friends.
+
+• oh shit whyyyy🐒
+
 -- WAIT, DON'T CACHE ME. I'M STILL EVOLVING. --
 meta name="robots" content="noindex, nofollow, noarchive"
 
