@@ -1,6 +1,6 @@
 # Offensive + Defensive Security ⚡️
 
-## 🤖👻 bracker delete { <> } 🤣
+## 🤖👻 bracket delete { <> } 🤣
 
 -- WAIT, DON'T CACHE ME. I'M STILL EVOLVING. --
 meta name="robots" content="noindex, nofollow, noarchive"
