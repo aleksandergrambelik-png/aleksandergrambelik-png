@@ -2,6 +2,10 @@
 
 ## 🤖👻 bracket delete { <> } 🤣
 
+· [REKT] Bracket found guilty. Executed. 🗿
+· [SYNTAX ERROR] Missing semicolon at line 404
+· [OVERRIDE] No more brackets. Pure ASCII only.
+
 -- WAIT, DON'T CACHE ME. I'M STILL EVOLVING. --
 meta name="robots" content="noindex, nofollow, noarchive"
 
