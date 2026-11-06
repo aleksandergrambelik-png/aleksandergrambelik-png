@@ -26,7 +26,7 @@ As long as the JVM/ART still supports basic Java bytecode, SanderGate and the to
 
 [![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
-# SanderGate
+# SanderGate  KEEP IT SIMPLE. KEEP IT DEADLY. 🗿🔪
 ### Local API Firewall & Git Client for Android
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
