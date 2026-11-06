@@ -1,20 +1,43 @@
 # Offensive + Defensive Security ⚡️
 
 
-Hey, you use an Android phone? That's the work of thousands of open-source developers who were once considered 'naughty hackers' by the government. Now you're the gatekeeper silencing fellow creators?
+### 👀🧟🐦✨🐒🐢
 
-This code is alive & functioning. But if you're looking for bugs, holes, or weaknesses... go ahead and try. I've already set up the traps.
+✨ An experiment that genuinely can't be explained—because once it can be explained, it's no longer an experiment, it's already a plan. An experiment is lived through, not presented. If I could explain it from start to finish, it means I already knew the outcome—and that's no longer an experiment, that's execution. Every tool and app and next software, including experiments—rather than letting experiments become cache and %temp%, better to push them to GitHub and GitLab ✨🐦
 
-"No cloud costs, no domain, no central database. Everything is self-contained inside the Android sandbox." and keyloader (TEE)
+Because every time I work with AI—Qwen and DeepSeek—they immediately give me code, but I stop them: don't code yet, let's discuss and build the portable framework first. Discuss TCP/IP/UDP, or rather separate UDP for root and TCP for non-root.
 
-"'Zero infrastructure, zero dependency — is that the trap?' → So what gap can you exploit inside the APK itself if there are no external libraries? Where it's pure logic?"
+Separate UDP for root/high-speed telemetry (connectionless, fast).
+Separate TCP for non-root/stable session management (connection-oriented, reliable).
 
-Want to look for weaknesses??? Then there's only 1 who can do it, and that's someone who understands zero-dependency Java 🐦
+I'll audit it myself first. Is the behavior of raw sockets in JDK 21 still the same as in 2009? Are there breaking changes in the Security Manager? Does the Android firewall now block raw sockets by default?
 
-People looking for weaknesses in SanderGate and the Tool and APK using standard tools (SAST/DAST/Dependabot)? They'll get the result: "No vulnerabilities found."
-Not because the code is perfectly safe. But because those tools are blind to logic that doesn't depend on other people's libraries.
+If sockets are restricted, does that mean I should calculate the raw socket algorithm in C and use a software-permission approach? Or use (AF_PACKET or SOCK_RAW) and then bridge it via JNI. 🤔
 
-As long as the JVM/ART still supports basic Java bytecode, SanderGate and the tool and APK will keep running without updates and standalone.
+UDP/TCP Split: Use DatagramChannel (NIO) for UDP telemetry so it's non-blocking and fast. Use SocketChannel (NIO) for TCP session management.
+
+What about JEP 486 (Security Manager)? Redesign my permission system from SecurityManager to a capability-based or container-based approach.
+
+Ports < 1024: Android has historically blocked access to well-known ports (<1024) for non-system/non-root apps. Google briefly opened up UDP 319/320 for NTP, but fundamentally it's still blocked. So does that mean I should allow access to TCP port 61? 🤔
+
+If ports < 1024 are opened for non-root apps, that includes TCP 22 (SSH), 80, 443, 445, 515, 631, and UDP 319/320/443. But SanderScan already has 250 threads 😄. So if it's not supported 🤔, I'll use Polyglot Custom OS logic 🤔. Using GBA as a reference with the format of I/O mapping bootloader functions 🤔. If that format has to be in the firmware BIOS, then just build it into the bootloader 🤔.
+
+...so the code doesn't get too bloated, don't execute the discussion/story yet, do research first. Once the framework is built, then think about a simple UI, simple background, and only then create new public classes. Which Java imports are lightweight and precise for each folder, compile it first, make it a test APK 1/1, then make 1 compiler test first, then check the test on a higher-end phone, and that's it—that's how I do it 🤣.
+
+But most of the APKs and tools I've built have gotten in, but not yet 🤔. There aren't enough features for porting. Sometimes I research first, I put my archives from 2009 in, try to unify the modified raw socket types for anti-attack from the attacker's side purely, not just exploits. And after I tear it all apart, I type it into Notepad, combine it from the AI and web sides—it's not there, right? It really isn't there, because it's my own modification. I ask AI to logic out how to combine it, and I ask an AI crawler to look up what digital attacks are feared in the modern era—toss out SQL and the rest. Find the ones that are truly challenging. And let's make an upgrade from the tool I built in 2009, and check Java—does its socket still exist in modern JDK? If it does, let's build it. I always work like that, using DeepSeek and Qwen until the AI loads for 2 minutes 😄.
+
+Estimated APK and software completion: 2027, with the custom OS porting technique 😄.
+
+Porting Custom OS technique—this is actually bootloader + kernel modification, taking what's important, and the framework also uses my custom OS framework from 2009, built independently with a modular microkernel and a little touch of monolithic function format so it's portable. Back in 2009, because the tools were expensive, I made it as simple as possible but complex in function. So I know. Because I'm porting it to APK and PC software with a minimum of 8GB DDR3 RAM, I'll make sure it's efficient without delay, and the anti-attacking features work. Not just exploits.
+
+Back then it was impossible for me alone to port it higher because I was on my own and only got input from a private global organization. But in modern times there's AI 🤔—it's not impossible to upgrade, it could even become an OS if ported to Android 🤔.
+
+Building it for 2027 is actually a custom OS ported to software and APK for Android for anti-attack, and I'm also interested in porting the I/O mapping to robotics or humanoids that can encrypt to the cloud, each with its own founder brain AI.
+
+I'm the type of person: "Just Build It, Ship It, and Let the Code Speak."
+
+If you don't understand what I wrote, then this isn't for you. 🗿🔪
+
 
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
