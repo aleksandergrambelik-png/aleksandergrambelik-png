@@ -1,5 +1,16 @@
 # Offensive + Defensive Security ⚡️
 
+## 🤖👻
+
+<!-- WAIT, DON'T CACHE ME. I'M STILL EVOLVING. -->
+<meta name="robots" content="noindex, nofollow, noarchive">😆
+
+[Dear Googlebot, if you are reading this, please wait 5 minutes. I am about to push a new experiment.]🤣
+
+If anyone asks why my repositories and GitHub profile are late to be indexed by Google and GitHub, the answer is just one: because my README.md keeps changing — well, "readme" means "read me," right? So it's only fair that I turn it into my own newspaper timestamp, on my own account😆. That's why the BOT is confused and indexing is delayed — because the README isn't consistent🤣
+
+Cache Invalidation: Their system stores the latest version (cache). If I keep pushing with every experiment, the bot can never catch the final version (because there really is no final version — I keep updating it 😂).
+
 ### README.md Profile turns into a newspaper timestamp🐒
 
 Experimenting is indeed productive, huh? In my opinion it's just so-so🤣🤣 For me, experimenting is like "whoa that's cool, I could change this, oh if it's like this then cool, let me try it, test it, contact a friend. Bro, can I borrow your home lab, I want to test. And test it, whoa it worked, push it. Then make another one 🤣🤣"
