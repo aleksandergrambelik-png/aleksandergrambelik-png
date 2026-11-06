@@ -1,9 +1,9 @@
 # Offensive + Defensive Security ⚡️
 
-## 🤖👻
+## 🤖👻 no { <> } 🤣
 
-<!-- WAIT, DON'T CACHE ME. I'M STILL EVOLVING. -->
-<meta name="robots" content="noindex, nofollow, noarchive">😆
+-- WAIT, DON'T CACHE ME. I'M STILL EVOLVING. --
+meta name="robots" content="noindex, nofollow, noarchive"😆
 
 [Dear Googlebot, if you are reading this, please wait 5 minutes. I am about to push a new experiment.]🤣
 
