@@ -18,8 +18,6 @@ Why is this app heavy? Why does this library leak memory? Why does this socket c
 
 All of this doesn't claim that I'm a hacker. I'm not a hacker. I'm my own person, I named myself just a practitioner. I've still been learning from 2008 to 2026, and somehow the more I go through it, the more possibilities there are to tinker with and experiment with 🤔
 
-Experimenting is indeed productive, huh? In my opinion it's just so-so🤓 For me, experimenting is like "whoa that's cool, I could change this, oh if it's like this then cool, let me try it, test it, contact a friend. Bro, can I borrow your home lab, I want to test. And test it, whoa it worked, push it. Then make another one 😆"
-
 ## My girl is sulking + the app is erroring + the module is erroring, its crash makes this chaos, this madness, emotions and logic mixed and thrown into a blender 🔥 yeahh bebby ah haha
 
 ### 👀🧟🐦✨🐒🐢
