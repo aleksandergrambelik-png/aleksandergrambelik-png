@@ -16,7 +16,7 @@ A hacker is someone who enjoys exploring a system's capabilities and pushing its
 Breaking a system is about understanding its architecture.
 Why is this app heavy? Why does this library leak memory? Why does this socket crash when spammed? After breaking it down, fix it, optimize it.
 
-All of this doesn't claim that I'm a hacker. I'm not a hacker. I'm my own person, I named myself just a practitioner. I've still been learning from 2008 to 2026, and somehow the more I go through it, the more possibilities there are to tinker with and experiment with 🤔
+All of this doesn't claim that I'm a hacker. I'm not a hacker. I'm my own person, I named myself just a practitioner.  and somehow the more I go through it, the more possibilities there are to tinker with and experiment with 🤔
 
 ## My girl is sulking + the app is erroring + the module is erroring, its crash makes this chaos, this madness, emotions and logic mixed and thrown into a blender 🔥 yeahh bebby ah haha
 
@@ -43,15 +43,6 @@ If ports < 1024 are opened for non-root apps, that includes TCP 22 (SSH), 80, 44
 
 ...so the code doesn't get too bloated, don't execute the discussion/story yet, do research first. Once the framework is built, then think about a simple UI, simple background, and only then create new public classes. Which Java imports are lightweight and precise for each folder, compile it first, make it a test APK 1/1, then make 1 compiler test first, then check the test on a higher-end phone, and that's it—that's how I do it 🤣.
 
-But most of the APKs and tools I've built have gotten in, but not yet 🤔. There aren't enough features for porting. Sometimes I research first, I put my archives from 2009 in, try to unify the modified raw socket types for anti-attack from the attacker's side purely, not just exploits. And after I tear it all apart, I type it into Notepad, combine it from the AI and web sides—it's not there, right? It really isn't there, because it's my own modification. I ask AI to logic out how to combine it, and I ask an AI crawler to look up what digital attacks are feared in the modern era—toss out SQL and the rest. Find the ones that are truly challenging. And let's make an upgrade from the tool I built in 2009, and check Java—does its socket still exist in modern JDK? If it does, let's build it. I always work like that, using DeepSeek and Qwen until the AI loads for 2 minutes 😄.
-
-Estimated APK and software completion: 2027, with the custom OS porting technique 😄.
-
-Porting Custom OS technique—this is actually bootloader + kernel modification, taking what's important, and the framework also uses my custom OS framework from 2009, built independently with a modular microkernel and a little touch of monolithic function format so it's portable. Back in 2009, because the tools were expensive, I made it as simple as possible but complex in function. So I know. Because I'm porting it to APK and PC software with a minimum of 8GB DDR3 RAM, I'll make sure it's efficient without delay, and the anti-attacking features work. Not just exploits.
-
-Back then it was impossible for me alone to port it higher because I was on my own and only got input from a private global organization. But in modern times there's AI 🤔—it's not impossible to upgrade, it could even become an OS if ported to Android 🤔.
-
-Building it for 2027 is actually a custom OS ported to software and APK for Android for anti-attack, and I'm also interested in porting the I/O mapping to robotics or humanoids that can encrypt to the cloud, each with its own founder brain AI.
 
 I'm the type of person: "Just Build It, Ship It, and Let the Code Speak."
 
