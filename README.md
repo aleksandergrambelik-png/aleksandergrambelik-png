@@ -26,23 +26,39 @@ All of this doesn't claim that I'm a hacker. I'm not a hacker. I'm my own person
 
 Because every time I work with AI—Qwen and DeepSeek—they immediately give me code, but I stop them: don't code yet, let's discuss and build the portable framework first. Discuss TCP/IP/UDP, or rather separate UDP for root and TCP for non-root.
 
-Separate UDP for root/high-speed telemetry (connectionless, fast).
-Separate TCP for non-root/stable session management (connection-oriented, reliable).
+## NEW SanderDeflect v1.0.1.0 Ultra max sarkas marker + lock Matematika - Initial Release
 
-I'll audit it myself first. Is the behavior of raw sockets in JDK 21 still the same as in 2009? Are there breaking changes in the Security Manager? Does the Android firewall now block raw sockets by default?
+Standalone Android Defense Dashboard. Native Java, Zero Dependency, No Root, No Termux.
 
-If sockets are restricted, does that mean I should calculate the raw socket algorithm in C and use a software-permission approach? Or use (AF_PACKET or SOCK_RAW) and then bridge it via JNI. 🤔
+Features included in this APK:
+- Math Challenge (Access Gate)
+- Recon (HTTP Fetch & Parse)
+- Decoy (Fake HTML Response)
+- Tarpit/Socket (Port 8080 Trap)
+- Sinkhole (JSON Logging)
+- Mirror (Payload Reflection)
 
-UDP/TCP Split: Use DatagramChannel (NIO) for UDP telemetry so it's non-blocking and fast. Use SocketChannel (NIO) for TCP session management.
+SHA-256 Checksum:
+783e059f0a91d2121d3771b8e7d7de1b2a87369a92677649439ea65966a69a57  SanderDeflect.apk
 
-What about JEP 486 (Security Manager)? Redesign my permission system from SecurityManager to a capability-based or container-based approach.
+Note: The core logic modules are kept private in this repository. This release contains the compiled APK for direct installation.
 
-Ports < 1024: Android has historically blocked access to well-known ports (<1024) for non-system/non-root apps. Google briefly opened up UDP 319/320 for NTP, but fundamentally it's still blocked. So does that mean I should allow access to TCP port 61? 🤔
+## POC 
 
-If ports < 1024 are opened for non-root apps, that includes TCP 22 (SSH), 80, 443, 445, 515, 631, and UDP 319/320/443. But SanderScan already has 250 threads 😄. So if it's not supported 🤔, I'll use Polyglot Custom OS logic 🤔. Using GBA as a reference with the format of I/O mapping bootloader functions 🤔. If that format has to be in the firmware BIOS, then just build it into the bootloader 🤔.
-
-...so the code doesn't get too bloated, don't execute the discussion/story yet, do research first. Once the framework is built, then think about a simple UI, simple background, and only then create new public classes. Which Java imports are lightweight and precise for each folder, compile it first, make it a test APK 1/1, then make 1 compiler test first, then check the test on a higher-end phone, and that's it—that's how I do it 🤣.
-
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/a67b39bc-4a02-4b0a-8750-00f65116797c" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/22d07774-e3ca-4d92-9a67-80eeeaf8fb73" width="300" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/8807e2ed-798b-4574-aceb-4e99a90aa1aa" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/765b7f44-33dc-4311-bf7c-b07b80d1ee41" width="300" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/6c4a1ca5-5a4d-43db-ae00-35ecf1f7c537" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/65d5883e-6d7c-48c0-bf77-3555975b0891" width="300" /></td>
+  </tr>
+</table>
 
 I'm the type of person: "Just Build It, Ship It, and Let the Code Speak."
 
