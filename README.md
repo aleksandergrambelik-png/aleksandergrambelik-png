@@ -15,7 +15,7 @@ Features included in this APK:
 SHA-256 Checksum:
 783e059f0a91d2121d3771b8e7d7de1b2a87369a92677649439ea65966a69a57  SanderDeflect.apk
 
-[![Release v1.0.1.0](https://img.shields.io/badge/Release-v1.0.1.0-2ea44f?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderDeflect/releases/tag/v1.0.1.0)
+[![ReadRepoYouHaveEye v1.0.1.0](https://img.shields.io/badge/Release-v1.0.1.0-2ea44f?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderDeflect)
 
 Note: The core logic modules are kept private in this repository. This release contains the compiled APK for direct installation.
 
