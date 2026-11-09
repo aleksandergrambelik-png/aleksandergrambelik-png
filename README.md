@@ -1,5 +1,7 @@
 # Offensive + Defensive Security ⚡️
 
+### "None of the applications have updates unless someone requests one. As for personal custom / PC software (MSI, APT, EXE), that's for next year — I'm too lazy to build PC software."
+
 ## NEW SanderDeflect v1.0.1.0 - Ultra Max Sarcasm Marker + Multiplication Lock (Prove Your Brain)🤟
 
 Standalone Android Defense Dashboard. Native Java, Zero Dependency, No Root, No Termux.
