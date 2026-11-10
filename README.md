@@ -19,6 +19,24 @@ Features:
 
 Note: The core logic modules are kept private in this repository. This release contains the compiled APK for direct installation.
 
+## POC
+
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/f86f0fe9-a100-4cc1-a537-695281685642" width="120" /></td>
+    <td><img src="https://github.com/user-attachments/assets/f51c93cd-b793-425b-b827-051368c9007d" width="120" /></td>
+    <td><img src="https://github.com/user-attachments/assets/aae6820c-68dc-4861-a68a-b43def8679bc" width="120" /></td>
+    <td><img src="https://github.com/user-attachments/assets/cf6579e5-d391-48fa-a4ea-acc46f890dc1" width="120" /></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/4e90c877-7057-41dd-a34c-023716c772f6" width="120" /></td>
+    <td><img src="https://github.com/user-attachments/assets/e5eca153-a310-41a6-b15d-b7bc8a0b506a" width="120" /></td>
+    <td><img src="https://github.com/user-attachments/assets/3b256f9a-92ec-4c4b-b495-693252cf96c8" width="120" /></td>
+    <td><img src="https://github.com/user-attachments/assets/4bc0e14e-5509-433f-affa-44af1c30998d" width="120" /></td>
+  </tr>
+</table>
+
+
 ## NEW SanderDeflect v1.0.1.0 - Ultra Max Sarcasm Marker + Multiplication Lock (Prove Your Brain)🤟
 
 Standalone Android Defense Dashboard. Native Java, Zero Dependency, No Root, No Termux.
