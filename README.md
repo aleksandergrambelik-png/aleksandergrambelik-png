@@ -1,5 +1,24 @@
 # Offensive + Defensive Security ⚡️
 
+## NEW  Sander Suite Notepad v2.0.max.null
+
+Standalone OSINT & Security Suite. Zero Dependency. No Root. APK Android.
+
+[![READ REPO YOU HAVE EYE NOTE PAD](https://img.shields.io/badge/READ_REPO-YOU_HAVE_EYE-critical?style=for-the-badge)](https://github.com/aleksandergrambelik-png/SanderNotePad-Suite)
+
+Features:
+- 5 OSINT Modules (Email, DNS, Whois, IP, Phone).
+- Wikipedia Search (ID/EN).
+- Subdomain Finder (crt.sh + HackerTarget).
+- GitHub Repository Search.
+- Notepad with Internal Storage.
+- Mini Game: Tetris.
+- PIN Lock (AES-256 via Android Keystore).
+- Anti-Tamper (SHA-256 Signature Check).
+- Bilingual UI (ID/EN).
+
+Note: The core logic modules are kept private in this repository. This release contains the compiled APK for direct installation.
+
 ## NEW SanderDeflect v1.0.1.0 - Ultra Max Sarcasm Marker + Multiplication Lock (Prove Your Brain)🤟
 
 Standalone Android Defense Dashboard. Native Java, Zero Dependency, No Root, No Termux.
