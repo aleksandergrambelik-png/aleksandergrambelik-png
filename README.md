@@ -105,8 +105,6 @@ All of this doesn't claim that I'm a hacker. I'm not a hacker. I'm my own person
 
 ✨ An experiment that genuinely can't be explained—because once it can be explained, it's no longer an experiment, it's already a plan. An experiment is lived through, not presented. If I could explain it from start to finish, it means I already knew the outcome—and that's no longer an experiment, that's execution. Every tool and app and next software, including experiments—rather than letting experiments become cache and %temp%, better to push them to GitHub and GitLab ✨🐦
 
-Because every time I work with AI—Qwen and DeepSeek—they immediately give me code, but I stop them: don't code yet, let's discuss and build the portable framework first. Discuss TCP/IP/UDP, or rather separate UDP for root and TCP for non-root.
-
 [![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 ![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
