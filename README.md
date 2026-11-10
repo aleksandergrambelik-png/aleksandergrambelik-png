@@ -23,19 +23,19 @@ Note: The core logic modules are kept private in this repository. This release c
 
 <table>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/4539aa63-f5c1-4d8a-918d-0c1a9fe72a5d" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/a67b39bc-4a02-4b0a-8750-00f65116797c" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/4539aa63-f5c1-4d8a-918d-0c1a9fe72a5d" width="125" /></td>
+    <td><img src="https://github.com/user-attachments/assets/a67b39bc-4a02-4b0a-8750-00f65116797c" width="125" /></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/22d07774-e3ca-4d92-9a67-80eeeaf8fb73" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/8807e2ed-798b-4574-aceb-4e99a90aa1aa" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/22d07774-e3ca-4d92-9a67-80eeeaf8fb73" width="125" /></td>
+    <td><img src="https://github.com/user-attachments/assets/8807e2ed-798b-4574-aceb-4e99a90aa1aa" width="125" /></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/765b7f44-33dc-4311-bf7c-b07b80d1ee41" width="300" /></td>
-    <td><img src="https://github.com/user-attachments/assets/6c4a1ca5-5a4d-43db-ae00-35ecf1f7c537" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/765b7f44-33dc-4311-bf7c-b07b80d1ee41" width="125" /></td>
+    <td><img src="https://github.com/user-attachments/assets/6c4a1ca5-5a4d-43db-ae00-35ecf1f7c537" width="125" /></td>
   </tr>
   <tr>
-    <td><img src="https://github.com/user-attachments/assets/65d5883e-6d7c-48c0-bf77-3555975b0891" width="300" /></td>
+    <td><img src="https://github.com/user-attachments/assets/65d5883e-6d7c-48c0-bf77-3555975b0891" width="125" /></td>
     <td></td>
   </tr>
 </table>
