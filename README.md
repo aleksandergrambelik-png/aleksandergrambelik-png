@@ -19,16 +19,6 @@ SHA-256 Checksum:
 
 Note: The core logic modules are kept private in this repository. This release contains the compiled APK for direct installation.
 
-## The Philosophy 🐦
-
-· The Math Gate: A lock isn't just a barrier; it's a filter. It separates the mindless copy-pasters from the actual thinkers.
-
-· Natural Selection for Code: If you can't solve the equation, you don't deserve the key. It's not gatekeeping; it's an IQ test for script kiddies.
-
-· Respect the Craft: Building a mathematical barrier means you force users to understand the system before they can use it. If their brain can't compute, their hands don't get to click.
-
-In short: "No brain, no access. The math doesn't care about your feelings."
-
 ## POC 
 
 <table>
