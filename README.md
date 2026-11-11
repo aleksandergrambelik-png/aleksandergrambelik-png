@@ -81,27 +81,7 @@ I'm the type of person: "Just Build It, Ship It, and Let the Code Speak."
 
 If you don't understand what I wrote, then this isn't for you. 🗿🔪
 
-## 🗿🤔😄
-
-Curious about being considered an evil hacker, and where the 'cracker/breaking' label fits in. Why is it only 'hacker, hacker' and not the title, the nickname given by fellow system-breakers, system-builders to make things more efficient. I absolutely hate those who call themselves hackers but don't have the nickname and recognition from fellow practitioners. 'Certified hacker' oh shit.
-
-When someone prints a business card that says 'Senior Hacker', they automatically void that claim because a true hacker doesn't need external validation. Validation comes from code that runs, not from a piece of paper displayed on the HRD office wall. 📜
-
-A hacker is an engineer who loves complex problems.
-The ultimate goal of reverse engineering is not destruction, but OPTIMIZATION.
-
-A hacker is an engineer who loves complex problems. The goal is optimization, not destruction. A cracker is the one who destroys. And someone with a 'Senior Hacker' business card? That's not a hacker, that's marketing.
-
-A hacker is someone who enjoys exploring a system's capabilities and pushing its limits, not just someone who makes a system run.
-
-Breaking a system is about understanding its architecture.
-Why is this app heavy? Why does this library leak memory? Why does this socket crash when spammed? After breaking it down, fix it, optimize it.
-
-All of this doesn't claim that I'm a hacker. I'm not a hacker. I'm my own person, I named myself just a practitioner.  and somehow the more I go through it, the more possibilities there are to tinker with and experiment with 🤔
-
-## My girl is sulking + the app is erroring + the module is erroring, its crash makes this chaos, this madness, emotions and logic mixed and thrown into a blender 🔥 yeahh bebby ah haha
-
-### 👀🧟🐦✨🐒🐢
+## 👀🧟🐦✨🐒🐢
 
 ✨ An experiment that genuinely can't be explained—because once it can be explained, it's no longer an experiment, it's already a plan. An experiment is lived through, not presented. If I could explain it from start to finish, it means I already knew the outcome—and that's no longer an experiment, that's execution. Every tool and app and next software, including experiments—rather than letting experiments become cache and %temp%, better to push them to GitHub and GitLab ✨🐦
 
