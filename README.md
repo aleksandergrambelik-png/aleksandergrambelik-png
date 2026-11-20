@@ -320,6 +320,7 @@ I prefer tools that work in the wild: compact, fast, and useful. If it warms my 
 If you want to support the project and keep the tools growing, you can buy me a coffee:
 
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-Support-orange?style=for-the-badge&logo=ko-fi)](https://ko-fi.com/sander_0x04)
+[![Saweria](https://img.shields.io/badge/Saweria-Beli%20kopi-orange?style=for-the-badge&logo=coffee)](https://saweria.co/aleksandergrambelik)
 
 ## GitHub Stats
 
