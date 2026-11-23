@@ -1,5 +1,19 @@
 # Offensive + Defensive Security ⚡️
 
+## 👀🧟🐦✨🐒🐢
+
+✨ An experiment that genuinely can't be explained—because once it can be explained, it's no longer an experiment, it's already a plan. An experiment is lived through, not presented. If I could explain it from start to finish, it means I already knew the outcome—and that's no longer an experiment, that's execution. Every tool and app and next software, including experiments—rather than letting experiments become cache and %temp%, better to push them to GitHub and GitLab 🧐
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
+
+[![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
+
+[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield//releases/tag/v38.0)
+
+[![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
+
 ## My Brain — Notes on Hex, Symbols, and Web Attack Surface
 
 But that was a normal thing back in the 2000s. Back in the day there was no real antivirus—everything was just a hoax that made storage over-buffer. Modern ones are the same: antivirus only detects user-agent, not hex patterns. And it's weird—why do antiviruses have external ads instead of internal ones? Or why not build a dedicated userland for ads instead of merging them into the backend? No matter how sophisticated it is, if everything is merged together and the web architecture has ads in the frontend, it'll never be safe. A link is a header, a URL key, and at the same time the door handle to open the house—that's the analogy. So logically, if there's no antivirus, then just build an anti-payload register at the same time.
@@ -110,19 +124,7 @@ Look at the letter m (`0110 1101`). If you change 1 bit (say to `0100 1101` / `0
 
 Every bit can be combined—so why is an attack different from an exploit? Why are basic-level attacks dangerous? Why is showing off an invoice or portfolio on social media a boomerang for yourself? Just treat this as yapping from someone who thinks he knows everything, like me.
 
-## 👀🧟🐦✨🐒🐢
 
-✨ An experiment that genuinely can't be explained—because once it can be explained, it's no longer an experiment, it's already a plan. An experiment is lived through, not presented. If I could explain it from start to finish, it means I already knew the outcome—and that's no longer an experiment, that's execution. Every tool and app and next software, including experiments—rather than letting experiments become cache and %temp%, better to push them to GitHub and GitLab 🧐
-
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-
-![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
-
-[![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
-
-[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield//releases/tag/v38.0)
-
-[![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
 uites, and lightweight defensive tools.
 - 🌱 Learning: deepening my skills in network security and Java.
