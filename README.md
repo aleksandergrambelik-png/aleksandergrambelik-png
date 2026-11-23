@@ -1,5 +1,20 @@
 # Offensive + Defensive Security ⚡️
 
+## 👀🧟🐦✨🐒🐢
+
+✨ An experiment that genuinely can't be explained—because once it can be explained, it's no longer an experiment, it's already a plan. An experiment is lived through, not presented. If I could explain it from start to finish, it means I already knew the outcome—and that's no longer an experiment, that's execution. Every tool and app and next software, including experiments—rather than letting experiments become cache and %temp%, better to push them to GitHub and GitLab 🧐
+
+[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+
+![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
+
+[![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
+
+[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield//releases/tag/v38.0)
+
+[![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
+
+
 ## Decompiling, Low-Level Optimization, and Why I Love Java NIO
 
 Decompiling a library is legal if the license permits it. Find the dead code, download the library, put it into raw code with an import to the syntax, check which part of the compiler method is set in each module of the library you want to use, then change its parameters according to your own logic.
@@ -177,19 +192,6 @@ String & Iterator Allocation (The Silent Killers):
 · Java Tax: for (String s : list) secretly calls iterator() → creates a new Iterator object in the Heap. In game engines or high-frequency trading, this causes GC pauses (lag spikes).
 · ASM Truth: LEA RAX, [RIP + str]. Zero allocation. Just shift the pointer to read-only memory. Understand that "convenience" in Java is paid for dearly with garbage collection pauses.
 
-## 👀🧟🐦✨🐒🐢
-
-✨ An experiment that genuinely can't be explained—because once it can be explained, it's no longer an experiment, it's already a plan. An experiment is lived through, not presented. If I could explain it from start to finish, it means I already knew the outcome—and that's no longer an experiment, that's execution. Every tool and app and next software, including experiments—rather than letting experiments become cache and %temp%, better to push them to GitHub and GitLab 🧐
-
-[![License: AGPL v3](https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
-
-![Profile Views](https://komarev.com/ghpvc/?username=aleksandergrambelik-png&color=blue)
-
-[![Termux](https://img.shields.io/badge/Termux-Compatible-cyan?style=for-the-badge&logo=termux)](https://github.com/termux/termux-app)
-
-[![Android](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)](https://github.com/aleksandergrambelik-png/SanderShield//releases/tag/v38.0)
-
-[![Java](https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk)](https://adoptium.net/)
 
 ## My Brain — Notes on Hex, Symbols, and Web Attack Surface
 
